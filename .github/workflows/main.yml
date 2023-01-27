@@ -13,7 +13,8 @@ jobs:
             token: ${{ secrets.PAT }}
             commit-message: Update report
             committer: GitHub <noreply@github.com>            
-            author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>            
+            author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+            branch: ${{github.ref}}
             base: main
             delete-branch: true
             labels: |
