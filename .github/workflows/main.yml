@@ -1,8 +1,6 @@
 on:
   push:
     types: [created]
-    branches: 
-      - '**'
 jobs:
     createPullRequest:
       runs-on: ubuntu-latest
