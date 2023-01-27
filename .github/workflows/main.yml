@@ -1,8 +1,4 @@
-on:
-  push:
-    types: [created]
-    branches: 
-      - '*'
+on: push
 jobs:
     createPullRequest:
       runs-on: ubuntu-latest
