@@ -1,4 +1,4 @@
-on: created
+on: create
 jobs:
     createPullRequest:
       runs-on: ubuntu-latest
