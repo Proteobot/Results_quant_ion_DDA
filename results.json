@@ -127,6 +127,26 @@
     "fdr_peptide":0.01,
     "fdr_protein":0.01,
     "MBR":true,
+    "precursor_tol":10,
+    "precursor_tol_unit":"PPM",
+    "fragmnent_tol":10,
+    "fragment_tol_unit":"PPM",
+    "enzyme_name":"Trypsin",
+    "missed_cleavages":2,
+    "min_pep_length":6,
+    "max_pep_length":25,
+    "weighted_sum":79.79,
+    "nr_prec":1532,
+    "is_temporary":false
+  },
+  {
+    "id":"MaxQuant_1.0_1695654745.499584",
+    "search_engine":"MaxQuant",
+    "software_version":"1.0",
+    "fdr_psm":0.01,
+    "fdr_peptide":0.01,
+    "fdr_protein":0.01,
+    "MBR":true,
     "precursor_tol":10.0,
     "precursor_tol_unit":"PPM",
     "fragmnent_tol":10.0,
@@ -135,8 +155,8 @@
     "missed_cleavages":2,
     "min_pep_length":6,
     "max_pep_length":25,
-    "weighted_sum":79.79,
-    "nr_prec":1532,
+    "weighted_sum":45.377,
+    "nr_prec":1120,
     "is_temporary":false
   }
 ]
