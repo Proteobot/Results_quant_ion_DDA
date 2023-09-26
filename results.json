@@ -17,7 +17,8 @@
     "max_pep_length":0,
     "weighted_sum":46.944,
     "nr_prec":15612,
-    "is_temporary":false
+    "is_temporary":false,
+    "old_new":"old"
   },
   {
     "id":"MaxQuant_0_1675871800.951341",
@@ -37,7 +38,8 @@
     "max_pep_length":0,
     "weighted_sum":45.838,
     "nr_prec":856,
-    "is_temporary":false
+    "is_temporary":false,
+    "old_new":"old"
   },
   {
     "id":"WOMBAT_0_1675871802.299524",
@@ -57,7 +59,8 @@
     "max_pep_length":0,
     "weighted_sum":40.1,
     "nr_prec":41496,
-    "is_temporary":false
+    "is_temporary":false,
+    "old_new":"old"
   },
   {
     "id":"MSFragger_1.5.8.3_1675950471.178419",
@@ -77,7 +80,8 @@
     "max_pep_length":25,
     "weighted_sum":46.944,
     "nr_prec":15612,
-    "is_temporary":false
+    "is_temporary":false,
+    "old_new":"old"
   },
   {
     "id":"MaxQuant_1.5.8.3_1675956034.646235",
@@ -97,7 +101,8 @@
     "max_pep_length":25,
     "weighted_sum":45.838,
     "nr_prec":856,
-    "is_temporary":false
+    "is_temporary":false,
+    "old_new":"old"
   },
   {
     "id":"MaxQuant_1.0_1695479095.965814",
@@ -117,7 +122,8 @@
     "max_pep_length":25,
     "weighted_sum":45.838,
     "nr_prec":856,
-    "is_temporary":false
+    "is_temporary":false,
+    "old_new":"old"
   },
   {
     "id":"AlphaPept_1.0_1695653621.626262",
@@ -127,9 +133,9 @@
     "fdr_peptide":0.01,
     "fdr_protein":0.01,
     "MBR":true,
-    "precursor_tol":10.0,
+    "precursor_tol":10,
     "precursor_tol_unit":"PPM",
-    "fragmnent_tol":10.0,
+    "fragmnent_tol":10,
     "fragment_tol_unit":"PPM",
     "enzyme_name":"Trypsin",
     "missed_cleavages":2,
@@ -137,6 +143,28 @@
     "max_pep_length":25,
     "weighted_sum":79.79,
     "nr_prec":1532,
-    "is_temporary":false
+    "is_temporary":false,
+    "old_new":"old"
+  },
+  {
+    "id":"AlphaPept__1695733241.75265",
+    "search_engine":"AlphaPept",
+    "software_version":"",
+    "fdr_psm":null,
+    "fdr_peptide":null,
+    "fdr_protein":null,
+    "MBR":false,
+    "precursor_tol":null,
+    "precursor_tol_unit":"-",
+    "fragmnent_tol":null,
+    "fragment_tol_unit":"-",
+    "enzyme_name":"-",
+    "missed_cleavages":null,
+    "min_pep_length":null,
+    "max_pep_length":null,
+    "weighted_sum":35.564,
+    "nr_prec":2668,
+    "is_temporary":false,
+    "old_new":"new"
   }
 ]
