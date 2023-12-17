@@ -23,7 +23,7 @@
     "max_mods":"5",
     "min_precursor_charge":null,
     "max_precursor_charge":"7",
-    "weighted_sum":0.0,
+    "median_abs_epsilon":0.0,
     "nr_prec":0,
     "is_temporary":false,
     "old_new":"old"
