@@ -1,35 +1,4 @@
-[
-  {
-    "id":"MaxQuant__20231213_105940",
-    "software_name":"MaxQuant",
-    "software_version":"1.6.3.3",
-    "search_engine_version":null,
-    "search_engine":"Andromeda",
-    "ident_fdr_psm":null,
-    "ident_fdr_peptide":0.01,
-    "ident_fdr_protein":0.01,
-    "enable_match_between_runs":"True",
-    "precursor_mass_tolerance":"4.5 ppm",
-    "precursor_mass_tolerance_unit":"-",
-    "fragment_mass_tolerance":"20 ppm",
-    "fragment_mass_tolerance_unit":"-",
-    "enzyme":"Trypsin\/P",
-    "allowed_miscleavages":2,
-    "min_peptide_length":7,
-    "max_peptide_length":null,
-    "intermediate_hash":"605b327a79ceb85b8e514c1d115a0ba12ac1dc1f",
-    "fixed_mods":"Carbamidomethyl (C)",
-    "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
-    "min_precursor_charge":null,
-    "max_precursor_charge":7,
-    "median_abs_epsilon":0,
-    "nr_prec":0,
-    "is_temporary":false,
-    "old_new":"old",
-    "results":null,
-    "weighted_sum":null
-  },
+ [
   {
     "id":"Proline__20240106_141919",
     "software_name":"Proline",
@@ -115,5 +84,91 @@
       }
     },
     "weighted_sum":0.3543356037
+  },
+  {
+    "id":"Proline__20240106_150642",
+    "software_name":"Proline",
+    "software_version":"2.8.0.1",
+    "search_engine_version":null,
+    "search_engine":"Mascot",
+    "ident_fdr_psm":1,
+    "ident_fdr_peptide":null,
+    "ident_fdr_protein":null,
+    "enable_match_between_runs":false,
+    "precursor_mass_tolerance":"10.0 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"20.0 mmu",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":2,
+    "min_peptide_length":7,
+    "max_peptide_length":null,
+    "intermediate_hash":"d31cba74a6ad5a78d74f2554e9cb0cf3a538d3b5",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Acetyl (Protein N-term); Oxidation (M)",
+    "max_mods":null,
+    "min_precursor_charge":null,
+    "max_precursor_charge":null,
+    "median_abs_epsilon":0.3167544806,
+    "nr_prec":40485.0,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.2943730204,
+        "variance_epsilon":0.2057684171,
+        "nr_prec":36458,
+        "CV_median":0.2321014686,
+        "CV_q90":0.5196210097,
+        "CV_q75":0.3406736601,
+        "CV_q95":0.6411244193
+      },
+      "5":{
+        "median_abs_epsilon":0.306031735,
+        "variance_epsilon":0.2233624809,
+        "nr_prec":38681,
+        "CV_median":0.2342383933,
+        "CV_q90":0.529214003,
+        "CV_q75":0.3479389595,
+        "CV_q95":0.6554914193
+      },
+      "4":{
+        "median_abs_epsilon":0.3133139446,
+        "variance_epsilon":0.2358948725,
+        "nr_prec":39770,
+        "CV_median":0.2348792993,
+        "CV_q90":0.5321465005,
+        "CV_q75":0.3503733446,
+        "CV_q95":0.6603138499
+      },
+      "3":{
+        "median_abs_epsilon":0.3167544806,
+        "variance_epsilon":0.2424592708,
+        "nr_prec":40485,
+        "CV_median":0.2350473091,
+        "CV_q90":0.5336858426,
+        "CV_q75":0.3511366626,
+        "CV_q95":0.662631293
+      },
+      "2":{
+        "median_abs_epsilon":0.3182145194,
+        "variance_epsilon":0.2466400428,
+        "nr_prec":40826,
+        "CV_median":0.2350422887,
+        "CV_q90":0.5337667726,
+        "CV_q75":0.3511672888,
+        "CV_q95":0.6626323201
+      },
+      "1":{
+        "median_abs_epsilon":0.3182145194,
+        "variance_epsilon":0.2466400428,
+        "nr_prec":40927,
+        "CV_median":0.2350422887,
+        "CV_q90":0.5337667726,
+        "CV_q75":0.3511672888,
+        "CV_q95":0.6626323201
+      }
+    },
+    "weighted_sum":0.3167544806
   }
 ]
