@@ -258,6 +258,92 @@
     "weighted_sum":0.3543356037
   },
   {
+    "id":"MaxQuant__20240108_104555",
+    "software_name":"MaxQuant",
+    "software_version":"2.1.3.0",
+    "search_engine_version":null,
+    "search_engine":"Andromeda",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":"0.01",
+    "ident_fdr_protein":"0.01",
+    "enable_match_between_runs":"False",
+    "precursor_mass_tolerance":"4.5 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"20 ppm",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":"1",
+    "min_peptide_length":"7",
+    "max_peptide_length":null,
+    "intermediate_hash":"55ec99971289603e6c59b325e828925194014629",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
+    "max_mods":"5",
+    "min_precursor_charge":null,
+    "max_precursor_charge":"7",
+    "median_abs_epsilon":0.260002874,
+    "nr_prec":32032,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.1998105942,
+        "variance_epsilon":0.0831658559,
+        "nr_prec":13766,
+        "CV_median":0.2043632164,
+        "CV_q90":0.395286694,
+        "CV_q75":0.2796211742,
+        "CV_q95":0.4911418964
+      },
+      "5":{
+        "median_abs_epsilon":0.2171316009,
+        "variance_epsilon":0.098303773,
+        "nr_prec":19961,
+        "CV_median":0.2040317005,
+        "CV_q90":0.4072257798,
+        "CV_q75":0.2851814487,
+        "CV_q95":0.5030728503
+      },
+      "4":{
+        "median_abs_epsilon":0.2398987542,
+        "variance_epsilon":0.1193007733,
+        "nr_prec":25484,
+        "CV_median":0.2034670373,
+        "CV_q90":0.4107968142,
+        "CV_q75":0.2880760012,
+        "CV_q95":0.5067738194
+      },
+      "3":{
+        "median_abs_epsilon":0.260002874,
+        "variance_epsilon":0.1388331758,
+        "nr_prec":32032,
+        "CV_median":0.2035616623,
+        "CV_q90":0.4151487867,
+        "CV_q75":0.2910030315,
+        "CV_q95":0.5108437517
+      },
+      "2":{
+        "median_abs_epsilon":0.2746031958,
+        "variance_epsilon":0.1600869669,
+        "nr_prec":39532,
+        "CV_median":0.2025858462,
+        "CV_q90":0.4164949806,
+        "CV_q75":0.2918746315,
+        "CV_q95":0.5123459642
+      },
+      "1":{
+        "median_abs_epsilon":0.2746031958,
+        "variance_epsilon":0.1600869669,
+        "nr_prec":50337,
+        "CV_median":0.2025858462,
+        "CV_q90":0.4164949806,
+        "CV_q75":0.2918746315,
+        "CV_q95":0.5123459642
+      }
+    },
+    "weighted_sum":0.260002874
+  },
+ {
     "id":"MaxQuant__20240108_104904",
     "software_name":"MaxQuant",
     "software_version":"2.1.3.0",
