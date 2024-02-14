@@ -20,9 +20,9 @@
     "intermediate_hash":"0f03bdfc8011649377467d4ce7e4091324c629ff",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.3223912355,
     "nr_prec":44686,
     "is_temporary":false,
@@ -83,7 +83,10 @@
         "CV_q95":0.6058360224
       }
     },
-    "weighted_sum":0.3223912355
+    "weighted_sum":0.3223912355,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant__20240122_181440",
@@ -106,9 +109,9 @@
     "intermediate_hash":"05abc3e601eb33e09355960ff27f8f05105aa927",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.2599088613,
     "nr_prec":32892,
     "is_temporary":false,
@@ -169,7 +172,10 @@
         "CV_q95":0.5142854641
       }
     },
-    "weighted_sum":0.2599088613
+    "weighted_sum":0.2599088613,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant__20240122_183924",
@@ -192,9 +198,9 @@
     "intermediate_hash":"8df2b72bb00bd367cefaf830205ed5120c79c739",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.2599931921,
     "nr_prec":32936,
     "is_temporary":false,
@@ -255,7 +261,10 @@
         "CV_q95":0.514675002
       }
     },
-    "weighted_sum":0.2599931921
+    "weighted_sum":0.2599931921,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant__20240122_184452",
@@ -278,9 +287,9 @@
     "intermediate_hash":"a84efb8381b913e37cff9783518a03408fbd4f0e",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.3202269329,
     "nr_prec":43930,
     "is_temporary":false,
@@ -341,7 +350,10 @@
         "CV_q95":0.6033732238
       }
     },
-    "weighted_sum":0.3202269329
+    "weighted_sum":0.3202269329,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant__20240122_184749",
@@ -364,9 +376,9 @@
     "intermediate_hash":"8d7861c6696d0e992c33423f94dd683666711d06",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.2594895133,
     "nr_prec":32077,
     "is_temporary":false,
@@ -427,7 +439,10 @@
         "CV_q95":0.5136026385
       }
     },
-    "weighted_sum":0.2594895133
+    "weighted_sum":0.2594895133,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant__20240122_185412",
@@ -450,9 +465,9 @@
     "intermediate_hash":"05b67645f6663fe0028337004240e589e4468f65",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.3086346522,
     "nr_prec":43765,
     "is_temporary":false,
@@ -513,7 +528,10 @@
         "CV_q95":0.5933110847
       }
     },
-    "weighted_sum":0.3086346522
+    "weighted_sum":0.3086346522,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant__20240122_185704",
@@ -536,9 +554,9 @@
     "intermediate_hash":"3930f818ebdb190400a15b0ce0dc1200abf77e62",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.3097305807,
     "nr_prec":44076,
     "is_temporary":false,
@@ -599,7 +617,10 @@
         "CV_q95":0.5917906104
       }
     },
-    "weighted_sum":0.3097305807
+    "weighted_sum":0.3097305807,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant__20240122_185909",
@@ -622,9 +643,9 @@
     "intermediate_hash":"55ec99971289603e6c59b325e828925194014629",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.260002874,
     "nr_prec":32032,
     "is_temporary":false,
@@ -685,7 +706,10 @@
         "CV_q95":0.5123459642
       }
     },
-    "weighted_sum":0.260002874
+    "weighted_sum":0.260002874,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant__20240122_190128",
@@ -708,9 +732,9 @@
     "intermediate_hash":"bebf4693a90a13fecc43e1e9aeeb48ebe10f6f18",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Acetyl (Protein N-term),Oxidation (M)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.2654903203,
     "nr_prec":32935,
     "is_temporary":false,
@@ -771,7 +795,10 @@
         "CV_q95":0.5246225852
       }
     },
-    "weighted_sum":0.2654903203
+    "weighted_sum":0.2654903203,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
   },
   {
     "id":"MaxQuant_2.4.0.0_20240129_090237",
@@ -794,13 +821,13 @@
     "intermediate_hash":"cd2231d7032d59a0b361311aee9aa209bc7f7812",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5.0,
+    "max_mods":5,
     "min_precursor_charge":null,
-    "max_precursor_charge":7.0,
+    "max_precursor_charge":7,
     "median_abs_epsilon":0.2946253201,
     "nr_prec":43425,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.2199841982,
@@ -857,6 +884,126 @@
         "CV_q95":0.5696429078
       }
     },
-    "weighted_sum":0.2946253201
+    "weighted_sum":0.2946253201,
+    "Highlight":null,
+    "comments":null,
+    "submission_comments":null
+  },
+  {
+    "id":"Sage__20240214_151939",
+    "software_name":"Sage",
+    "software_version":null,
+    "search_engine_version":"0.14.6",
+    "search_engine":"SAGE",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":null,
+    "ident_fdr_protein":null,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":[
+      -20.0,
+      20.0
+    ],
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":[
+      -10.0,
+      10.0
+    ],
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"KR",
+    "allowed_miscleavages":1,
+    "min_peptide_length":50,
+    "max_peptide_length":null,
+    "intermediate_hash":"48725b5d6c46facfb0283544874be8e9e94f529d",
+    "fixed_mods":{
+      "C":57.0215
+    },
+    "variable_mods":{
+      "$":[
+        49.2,
+        22.9
+      ],
+      "^Q":[
+        -17.026548
+      ],
+      "[":[
+        42.0
+      ],
+      "]":[
+        111.0
+      ],
+      "^E":[
+        -18.010565
+      ],
+      "M":[
+        15.9949
+      ]
+    },
+    "max_mods":1,
+    "min_precursor_charge":2,
+    "max_precursor_charge":4,
+    "median_abs_epsilon":0.6682326044,
+    "nr_prec":85634,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.5363319336,
+        "variance_epsilon":0.6659357842,
+        "nr_prec":76582,
+        "CV_median":0.3396377128,
+        "CV_q90":0.9331623881,
+        "CV_q75":0.6479808654,
+        "CV_q95":1.1919393208
+      },
+      "5":{
+        "median_abs_epsilon":0.5812929276,
+        "variance_epsilon":0.8173221391,
+        "nr_prec":80498,
+        "CV_median":0.354304715,
+        "CV_q90":0.9892815909,
+        "CV_q75":0.6834199413,
+        "CV_q95":1.2641700941
+      },
+      "4":{
+        "median_abs_epsilon":0.6258392802,
+        "variance_epsilon":1.0005761103,
+        "nr_prec":83340,
+        "CV_median":0.3621831047,
+        "CV_q90":1.028493882,
+        "CV_q75":0.7019416871,
+        "CV_q95":1.2997419875
+      },
+      "3":{
+        "median_abs_epsilon":0.6682326044,
+        "variance_epsilon":1.2035829293,
+        "nr_prec":85634,
+        "CV_median":0.3663732303,
+        "CV_q90":1.0489631547,
+        "CV_q75":0.7119583348,
+        "CV_q95":1.3174214216
+      },
+      "2":{
+        "median_abs_epsilon":0.700710689,
+        "variance_epsilon":1.3808294323,
+        "nr_prec":87722,
+        "CV_median":0.3678005812,
+        "CV_q90":1.055144222,
+        "CV_q75":0.7151823991,
+        "CV_q95":1.3214657506
+      },
+      "1":{
+        "median_abs_epsilon":0.700710689,
+        "variance_epsilon":1.3808294323,
+        "nr_prec":88885,
+        "CV_median":0.3678005812,
+        "CV_q90":1.055144222,
+        "CV_q75":0.7151823991,
+        "CV_q95":1.3214657506
+      }
+    },
+    "weighted_sum":0.6682326044,
+    "Highlight":false,
+    "comments":"",
+    "submission_comments":""
   }
 ]
