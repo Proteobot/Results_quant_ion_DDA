@@ -84,7 +84,6 @@
       }
     },
     "weighted_sum":0.3223912355,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -173,7 +172,6 @@
       }
     },
     "weighted_sum":0.2599088613,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -262,7 +260,6 @@
       }
     },
     "weighted_sum":0.2599931921,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -351,7 +348,6 @@
       }
     },
     "weighted_sum":0.3202269329,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -440,7 +436,6 @@
       }
     },
     "weighted_sum":0.2594895133,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -529,7 +524,6 @@
       }
     },
     "weighted_sum":0.3086346522,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -618,7 +612,6 @@
       }
     },
     "weighted_sum":0.3097305807,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -707,7 +700,6 @@
       }
     },
     "weighted_sum":0.260002874,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -796,7 +788,6 @@
       }
     },
     "weighted_sum":0.2654903203,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -885,7 +876,6 @@
       }
     },
     "weighted_sum":0.2946253201,
-    "Highlight":null,
     "comments":null,
     "submission_comments":null
   },
@@ -974,7 +964,6 @@
       }
     },
     "weighted_sum":0.3347529813,
-    "Highlight":false,
     "comments":"",
     "submission_comments":"Mascot + rescoring with MS2Rescore"
   }
