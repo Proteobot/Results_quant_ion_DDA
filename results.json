@@ -984,13 +984,13 @@
     "enzyme":"trypsin",
     "allowed_miscleavages":2,
     "min_peptide_length":7,
-    "max_peptide_length":27,
+    "max_peptide_length":27.0,
     "intermediate_hash":"cc3f2dd5ae2c3cacc575b36e4a31e586e0a0e24d",
     "fixed_mods":"cC",
     "variable_mods":"oxM",
-    "max_mods":3,
-    "min_precursor_charge":1,
-    "max_precursor_charge":6,
+    "max_mods":3.0,
+    "min_precursor_charge":1.0,
+    "max_precursor_charge":6.0,
     "median_abs_epsilon":0.3198576061,
     "nr_prec":38791,
     "is_temporary":false,
@@ -1056,106 +1056,6 @@
     "submission_comments":""
   },
   {
-    "id":"Sage__20240223_134742",
-    "software_name":"Sage",
-    "software_version":"0.14.6",
-    "search_engine_version":"0.14.6",
-    "search_engine":"Sage",
-    "ident_fdr_psm":null,
-    "ident_fdr_peptide":null,
-    "ident_fdr_protein":null,
-    "enable_match_between_runs":true,
-    "precursor_mass_tolerance":[
-      -20.0,
-      20.0
-    ],
-    "precursor_mass_tolerance_unit":null,
-    "fragment_mass_tolerance":[
-      -10.0,
-      10.0
-    ],
-    "fragment_mass_tolerance_unit":null,
-    "enzyme":"KR",
-    "allowed_miscleavages":1,
-    "min_peptide_length":5,
-    "max_peptide_length":40,
-    "intermediate_hash":"3157aaf74cc5f95ca256cc3ba16971767ee526be",
-    "fixed_mods":{
-      "C":57.0215
-    },
-    "variable_mods":{
-      "M":[
-        15.9949
-      ]
-    },
-    "max_mods":1,
-    "min_precursor_charge":1,
-    "max_precursor_charge":6,
-    "median_abs_epsilon":0.659304184,
-    "nr_prec":92428,
-    "is_temporary":false,
-    "old_new":"new",
-    "results":{
-      "6":{
-        "median_abs_epsilon":0.5091183263,
-        "variance_epsilon":0.6222007361,
-        "nr_prec":80846,
-        "CV_median":0.3478457361,
-        "CV_q90":0.9202120094,
-        "CV_q75":0.6540307926,
-        "CV_q95":1.1592982326
-      },
-      "5":{
-        "median_abs_epsilon":0.5631531254,
-        "variance_epsilon":0.8006715729,
-        "nr_prec":85528,
-        "CV_median":0.363998312,
-        "CV_q90":0.974238208,
-        "CV_q75":0.6896505682,
-        "CV_q95":1.2403554243
-      },
-      "4":{
-        "median_abs_epsilon":0.6107486634,
-        "variance_epsilon":0.9875621491,
-        "nr_prec":89413,
-        "CV_median":0.372769415,
-        "CV_q90":1.0127402736,
-        "CV_q75":0.7078453052,
-        "CV_q95":1.2770433414
-      },
-      "3":{
-        "median_abs_epsilon":0.659304184,
-        "variance_epsilon":1.2217637757,
-        "nr_prec":92428,
-        "CV_median":0.3775851793,
-        "CV_q90":1.0347722153,
-        "CV_q75":0.7181311692,
-        "CV_q95":1.2975982852
-      },
-      "2":{
-        "median_abs_epsilon":0.695195953,
-        "variance_epsilon":1.413928654,
-        "nr_prec":95138,
-        "CV_median":0.3788971909,
-        "CV_q90":1.0414682377,
-        "CV_q75":0.7212560305,
-        "CV_q95":1.3024133037
-      },
-      "1":{
-        "median_abs_epsilon":0.695195953,
-        "variance_epsilon":1.413928654,
-        "nr_prec":97031,
-        "CV_median":0.3788971909,
-        "CV_q90":1.0414682377,
-        "CV_q75":0.7212560305,
-        "CV_q95":1.3024133037
-      }
-    },
-    "weighted_sum":0.659304184,
-    "comments":"",
-    "submission_comments":"peak_scoring-Hybrid,integration-Sum,spectral_angle-0.7,ppm_tolerance-5.0,combine_charge_states-false"
-  },
-  {
     "id":"AlphaPept__20240224_102717",
     "software_name":"AlphaPept",
     "software_version":"0.5.0",
@@ -1172,13 +1072,13 @@
     "enzyme":"trypsin",
     "allowed_miscleavages":2,
     "min_peptide_length":7,
-    "max_peptide_length":27,
+    "max_peptide_length":27.0,
     "intermediate_hash":"98658707b86acab363010c3e5b7a61e66684859e",
     "fixed_mods":"cC",
     "variable_mods":"oxM",
-    "max_mods":3,
-    "min_precursor_charge":1,
-    "max_precursor_charge":6,
+    "max_mods":3.0,
+    "min_precursor_charge":1.0,
+    "max_precursor_charge":6.0,
     "median_abs_epsilon":0.3223310827,
     "nr_prec":37234,
     "is_temporary":false,
