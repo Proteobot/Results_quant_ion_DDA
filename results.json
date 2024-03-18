@@ -994,7 +994,7 @@
     "median_abs_epsilon":0.3198576061,
     "nr_prec":38791,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.2786880161,
@@ -1082,7 +1082,7 @@
     "median_abs_epsilon":0.3223310827,
     "nr_prec":37234,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.2829977516,
@@ -1142,5 +1142,93 @@
     "weighted_sum":0.3223310827,
     "comments":"",
     "submission_comments":""
+  },
+  {
+    "id":"Proline_2.1_20240318_162947",
+    "software_name":"Proline",
+    "software_version":null,
+    "search_engine_version":"2.8.0.1",
+    "search_engine":"Mascot",
+    "ident_fdr_psm":0.01,
+    "ident_fdr_peptide":null,
+    "ident_fdr_protein":null,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"10.0 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"0.02 Da",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":2,
+    "min_peptide_length":7,
+    "max_peptide_length":null,
+    "intermediate_hash":"4eeb206ab3e02d23c1b75e057bbfbe7959614be5",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Acetyl (Protein N-term); Oxidation (M)",
+    "max_mods":null,
+    "min_precursor_charge":null,
+    "max_precursor_charge":null,
+    "median_abs_epsilon":0.2758238268,
+    "nr_prec":36649,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.2758238268,
+        "variance_epsilon":0.1490887053,
+        "nr_prec":36649,
+        "CV_median":0.1647836311,
+        "CV_q90":0.440644839,
+        "CV_q75":0.2800470178,
+        "CV_q95":0.5596841609
+      },
+      "5":{
+        "median_abs_epsilon":0.2969540477,
+        "variance_epsilon":0.1711553862,
+        "nr_prec":46941,
+        "CV_median":0.1675865115,
+        "CV_q90":0.454691088,
+        "CV_q75":0.2890376078,
+        "CV_q95":0.5780705292
+      },
+      "4":{
+        "median_abs_epsilon":0.3192494447,
+        "variance_epsilon":0.203357595,
+        "nr_prec":53796,
+        "CV_median":0.1690771832,
+        "CV_q90":0.4637672149,
+        "CV_q75":0.2934001466,
+        "CV_q95":0.5893073919
+      },
+      "3":{
+        "median_abs_epsilon":0.3347382934,
+        "variance_epsilon":0.2300304081,
+        "nr_prec":59188,
+        "CV_median":0.1693813621,
+        "CV_q90":0.4674530381,
+        "CV_q75":0.2952645104,
+        "CV_q95":0.5954867312
+      },
+      "2":{
+        "median_abs_epsilon":0.3425626267,
+        "variance_epsilon":0.2490662728,
+        "nr_prec":62669,
+        "CV_median":0.1694173141,
+        "CV_q90":0.4689700833,
+        "CV_q75":0.2959024406,
+        "CV_q95":0.5984499688
+      },
+      "1":{
+        "median_abs_epsilon":0.3425626267,
+        "variance_epsilon":0.2490662728,
+        "nr_prec":64378,
+        "CV_median":0.1694173141,
+        "CV_q90":0.4689700833,
+        "CV_q75":0.2959024406,
+        "CV_q95":0.5984499688
+      }
+    },
+    "weighted_sum":0.3347382934,
+    "comments":"",
+    "submission_comments":"Mascot + rescoring with Percolator 3.5"
   }
 ]
