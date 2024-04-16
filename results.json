@@ -1170,7 +1170,7 @@
     "median_abs_epsilon":0.2758238268,
     "nr_prec":36649,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.2758238268,
@@ -1230,5 +1230,93 @@
     "weighted_sum":0.3347382934,
     "comments":"",
     "submission_comments":"Mascot + rescoring with Percolator 3.5"
+  },
+  {
+    "id":"MaxQuant__20240416_140614",
+    "software_name":"MaxQuant",
+    "software_version":"2.5.1.0",
+    "search_engine_version":null,
+    "search_engine":"Andromeda",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":"0.01",
+    "ident_fdr_protein":"0.01",
+    "enable_match_between_runs":"False",
+    "precursor_mass_tolerance":"4.5 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"20 ppm",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":"1",
+    "min_peptide_length":"7",
+    "max_peptide_length":null,
+    "intermediate_hash":"9d4fef41a769a2b649b9ff3372f71779fb3a8cb9",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
+    "max_mods":"5",
+    "min_precursor_charge":null,
+    "max_precursor_charge":"7",
+    "median_abs_epsilon":0.2779344838,
+    "nr_prec":48720,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.1985504722,
+        "variance_epsilon":0.0835512969,
+        "nr_prec":11658,
+        "CV_median":0.2053598849,
+        "CV_q90":0.3959152577,
+        "CV_q75":0.2802724525,
+        "CV_q95":0.4933963454
+      },
+      "5":{
+        "median_abs_epsilon":0.2172593072,
+        "variance_epsilon":0.0996464052,
+        "nr_prec":17775,
+        "CV_median":0.2038394368,
+        "CV_q90":0.4063367112,
+        "CV_q75":0.2846578092,
+        "CV_q95":0.503037428
+      },
+      "4":{
+        "median_abs_epsilon":0.2397403037,
+        "variance_epsilon":0.1204717455,
+        "nr_prec":23310,
+        "CV_median":0.2029345932,
+        "CV_q90":0.4099027373,
+        "CV_q75":0.2877110699,
+        "CV_q95":0.5058493694
+      },
+      "3":{
+        "median_abs_epsilon":0.2615198077,
+        "variance_epsilon":0.1409696736,
+        "nr_prec":29965,
+        "CV_median":0.20277744,
+        "CV_q90":0.413975912,
+        "CV_q75":0.2903262121,
+        "CV_q95":0.5090831433
+      },
+      "2":{
+        "median_abs_epsilon":0.2779344838,
+        "variance_epsilon":0.1650482874,
+        "nr_prec":37626,
+        "CV_median":0.2019262676,
+        "CV_q90":0.4155158133,
+        "CV_q75":0.2916311082,
+        "CV_q95":0.5104175998
+      },
+      "1":{
+        "median_abs_epsilon":0.2779344838,
+        "variance_epsilon":0.1650482874,
+        "nr_prec":48720,
+        "CV_median":0.2019262676,
+        "CV_q90":0.4155158133,
+        "CV_q75":0.2916311082,
+        "CV_q95":0.5104175998
+      }
+    },
+    "weighted_sum":0.2615198077,
+    "comments":"no second peptide search",
+    "submission_comments":"no second peptide search"
   }
 ]
