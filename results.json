@@ -1170,7 +1170,7 @@
     "median_abs_epsilon":0.2758238268,
     "nr_prec":36649,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.2758238268,
@@ -1230,5 +1230,93 @@
     "weighted_sum":0.3347382934,
     "comments":"",
     "submission_comments":"Mascot + rescoring with Percolator 3.5"
+  },
+  {
+    "id":"i2MassChroQ__20240503_144057",
+    "software_name":"i2MassChroQ",
+    "software_version":"1.0.8",
+    "search_engine_version":"X! Tandem Alanine (2017.2.1.4)",
+    "search_engine":"X! Tandem",
+    "ident_fdr_psm":"0.00999799237101",
+    "ident_fdr_peptide":"0.0133552379471",
+    "ident_fdr_protein":"0.00985995998857",
+    "enable_match_between_runs":"T",
+    "precursor_mass_tolerance":"10 (ppm)",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"0.02 (Daltons)",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"[RK]|{P}",
+    "allowed_miscleavages":"3",
+    "min_peptide_length":null,
+    "max_peptide_length":null,
+    "intermediate_hash":"74a1c51f458078926bdd91059bd9f571f51b9024",
+    "fixed_mods":"57.02146@C",
+    "variable_mods":"15.99491@M",
+    "max_mods":null,
+    "min_precursor_charge":1,
+    "max_precursor_charge":"4",
+    "median_abs_epsilon":0.522689083,
+    "nr_prec":52800,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.522689083,
+        "variance_epsilon":0.5530658237,
+        "nr_prec":52800,
+        "CV_median":0.3453404872,
+        "CV_q90":0.7726449673,
+        "CV_q75":0.5712160922,
+        "CV_q95":0.905997633
+      },
+      "5":{
+        "median_abs_epsilon":0.5840850018,
+        "variance_epsilon":0.6834262072,
+        "nr_prec":67742,
+        "CV_median":0.3684875139,
+        "CV_q90":0.824718468,
+        "CV_q75":0.6031641125,
+        "CV_q95":0.9763380976
+      },
+      "4":{
+        "median_abs_epsilon":0.6232343991,
+        "variance_epsilon":0.7833323127,
+        "nr_prec":75328,
+        "CV_median":0.3760418334,
+        "CV_q90":0.8468204708,
+        "CV_q75":0.6158173371,
+        "CV_q95":1.0093946369
+      },
+      "3":{
+        "median_abs_epsilon":0.6501106341,
+        "variance_epsilon":0.8638373183,
+        "nr_prec":79640,
+        "CV_median":0.37899542,
+        "CV_q90":0.8558618998,
+        "CV_q75":0.6207856763,
+        "CV_q95":1.0232477051
+      },
+      "2":{
+        "median_abs_epsilon":0.6610600222,
+        "variance_epsilon":0.8995160476,
+        "nr_prec":82326,
+        "CV_median":0.3796166442,
+        "CV_q90":0.8578143757,
+        "CV_q75":0.6218586603,
+        "CV_q95":1.025897091
+      },
+      "1":{
+        "median_abs_epsilon":0.6610600222,
+        "variance_epsilon":0.8995160476,
+        "nr_prec":83968,
+        "CV_median":0.3796166442,
+        "CV_q90":0.8578143757,
+        "CV_q75":0.6218586603,
+        "CV_q95":1.025897091
+      }
+    },
+    "weighted_sum":null,
+    "comments":"",
+    "submission_comments":"this is a test"
   }
 ]
