@@ -1170,7 +1170,7 @@
     "median_abs_epsilon":0.2758238268,
     "nr_prec":36649,
     "is_temporary":false,
-    "old_new":"new",
+    "old_new":"old",
     "results":{
       "6":{
         "median_abs_epsilon":0.2758238268,
@@ -1230,5 +1230,93 @@
     "weighted_sum":0.3347382934,
     "comments":"",
     "submission_comments":"Mascot + rescoring with Percolator 3.5"
+  },
+  {
+    "id":"MaxQuant__20240511_182839",
+    "software_name":"MaxQuant",
+    "software_version":"2.5.1.0",
+    "search_engine_version":null,
+    "search_engine":"Andromeda",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":"0.01",
+    "ident_fdr_protein":"0.01",
+    "enable_match_between_runs":"False",
+    "precursor_mass_tolerance":"4.5 ppm",
+    "precursor_mass_tolerance_unit":null,
+    "fragment_mass_tolerance":"20 ppm",
+    "fragment_mass_tolerance_unit":null,
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":"1",
+    "min_peptide_length":"7",
+    "max_peptide_length":null,
+    "intermediate_hash":"baf0a43f6569146533a95184c4ab7a30e0236579",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
+    "max_mods":"5",
+    "min_precursor_charge":null,
+    "max_precursor_charge":"7",
+    "median_abs_epsilon":0.2599472936,
+    "nr_prec":32034,
+    "is_temporary":false,
+    "old_new":"new",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.1996485006,
+        "variance_epsilon":0.0830868593,
+        "nr_prec":13766,
+        "CV_median":0.2042085529,
+        "CV_q90":0.3948541478,
+        "CV_q75":0.2794153416,
+        "CV_q95":0.4905669617
+      },
+      "5":{
+        "median_abs_epsilon":0.2172296082,
+        "variance_epsilon":0.0988418084,
+        "nr_prec":19948,
+        "CV_median":0.2039961601,
+        "CV_q90":0.4072087505,
+        "CV_q75":0.2850330477,
+        "CV_q95":0.502853049
+      },
+      "4":{
+        "median_abs_epsilon":0.2398180792,
+        "variance_epsilon":0.1192858442,
+        "nr_prec":25468,
+        "CV_median":0.2034641926,
+        "CV_q90":0.4108068619,
+        "CV_q75":0.2880388899,
+        "CV_q95":0.5066518832
+      },
+      "3":{
+        "median_abs_epsilon":0.2599472936,
+        "variance_epsilon":0.1383841459,
+        "nr_prec":32034,
+        "CV_median":0.203571336,
+        "CV_q90":0.4151960718,
+        "CV_q75":0.2909873474,
+        "CV_q95":0.5108282559
+      },
+      "2":{
+        "median_abs_epsilon":0.2745471495,
+        "variance_epsilon":0.1602291805,
+        "nr_prec":39512,
+        "CV_median":0.2026189561,
+        "CV_q90":0.4165186785,
+        "CV_q75":0.291817506,
+        "CV_q95":0.5122925099
+      },
+      "1":{
+        "median_abs_epsilon":0.2745471495,
+        "variance_epsilon":0.1602291805,
+        "nr_prec":50302,
+        "CV_median":0.2026189561,
+        "CV_q90":0.4165186785,
+        "CV_q75":0.291817506,
+        "CV_q95":0.5122925099
+      }
+    },
+    "weighted_sum":null,
+    "comments":"",
+    "submission_comments":"this is a test"
   }
 ]
