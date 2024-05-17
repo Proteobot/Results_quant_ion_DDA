@@ -170,21 +170,21 @@
     "submission_comments":""
   },
   {
-    "old_new":"new",
+    "old_new":"old",
     "id":"MaxQuant__20240517_161437",
     "software_name":"MaxQuant",
     "software_version":"1.5.3.30",
     "search_engine":"Andromeda",
     "search_engine_version":null,
     "ident_fdr_psm":null,
-    "ident_fdr_peptide":"0.01",
-    "ident_fdr_protein":"0.01",
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
     "enable_match_between_runs":"false",
     "precursor_mass_tolerance":"4.5 ppm",
     "fragment_mass_tolerance":"20 ppm",
     "enzyme":"Trypsin\/P",
-    "allowed_miscleavages":"1",
-    "min_peptide_length":"7",
+    "allowed_miscleavages":1,
+    "min_peptide_length":7,
     "max_peptide_length":null,
     "is_temporary":false,
     "intermediate_hash":"8df2b72bb00bd367cefaf830205ed5120c79c739",
@@ -249,9 +249,94 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
+    "max_mods":5,
+    "min_precursor_charge":null,
+    "max_precursor_charge":7,
+    "submission_comments":""
+  },
+  {
+    "old_new":"new",
+    "id":"MaxQuant__20240517_161635",
+    "software_name":"MaxQuant",
+    "software_version":"1.5.3.30",
+    "search_engine":"Andromeda",
+    "search_engine_version":null,
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":"0.01",
+    "ident_fdr_protein":"0.01",
+    "enable_match_between_runs":"false",
+    "precursor_mass_tolerance":"4.5 ppm",
+    "fragment_mass_tolerance":"20 ppm",
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":"1",
+    "min_peptide_length":"7",
+    "max_peptide_length":null,
+    "is_temporary":false,
+    "intermediate_hash":"05abc3e601eb33e09355960ff27f8f05105aa927",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.2004844362,
+        "variance_epsilon":0.0875373738,
+        "nr_prec":14277,
+        "CV_median":0.2043298657,
+        "CV_q90":0.3948841652,
+        "CV_q75":0.2797218817,
+        "CV_q95":0.4915177525
+      },
+      "5":{
+        "median_abs_epsilon":0.2181742718,
+        "variance_epsilon":0.1021320564,
+        "nr_prec":20607,
+        "CV_median":0.2041712538,
+        "CV_q90":0.406689138,
+        "CV_q75":0.2855691442,
+        "CV_q95":0.5035416021
+      },
+      "4":{
+        "median_abs_epsilon":0.2399639491,
+        "variance_epsilon":0.1217704855,
+        "nr_prec":26256,
+        "CV_median":0.2035570999,
+        "CV_q90":0.4120209176,
+        "CV_q75":0.2882725977,
+        "CV_q95":0.5098932268
+      },
+      "3":{
+        "median_abs_epsilon":0.2599088613,
+        "variance_epsilon":0.1391106076,
+        "nr_prec":32892,
+        "CV_median":0.2034474094,
+        "CV_q90":0.4156736032,
+        "CV_q75":0.2911094389,
+        "CV_q95":0.5130245406
+      },
+      "2":{
+        "median_abs_epsilon":0.2725436029,
+        "variance_epsilon":0.1558282785,
+        "nr_prec":40341,
+        "CV_median":0.2025028651,
+        "CV_q90":0.4169942976,
+        "CV_q75":0.2917958057,
+        "CV_q95":0.5142854641
+      },
+      "1":{
+        "median_abs_epsilon":0.2725436029,
+        "variance_epsilon":0.1558282785,
+        "nr_prec":51319,
+        "CV_median":0.2025028651,
+        "CV_q90":0.4169942976,
+        "CV_q75":0.2917958057,
+        "CV_q95":0.5142854641
+      }
+    },
+    "median_abs_epsilon":0.2599088613,
+    "nr_prec":32892,
+    "comments":"",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
     "max_mods":"5",
     "min_precursor_charge":null,
     "max_precursor_charge":"7",
-    "submission_comments":""
+    "submission_comments":"this search has exactly the same parameters as MaxQuant__20240517_161437"
   }
 ]
