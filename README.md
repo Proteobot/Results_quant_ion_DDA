@@ -10,7 +10,7 @@ In the version controlled folder, delete keys manaually using `delete_keys.py` a
 
 ```bash
 # pip install pandas # needs pandas
-python delete_keys_from_json.py key1 key2
+python delete_keys.py --json_file jsonfile_name --keys key
 ```
 
 See the logged manipulation in [`delete_log.txt`](delete_log.txt).
