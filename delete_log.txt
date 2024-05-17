@@ -1,3 +1,17 @@
 02/01/2024 12:09:59 Deleting information: Proline__20240122_190626
 02/01/2024 12:09:59 Deleting information: Proline__20240122_190958
 02/26/2024 14:38:46 Deleting information: Sage__20240223_134742
+05/17/2024 17:49:54 Deleting information: MaxQuant__20240122_180731
+05/17/2024 17:51:02 Deleting information: MaxQuant__20240122_181440
+05/17/2024 17:51:11 Deleting information: MaxQuant__20240122_183924
+05/17/2024 17:51:24 Deleting information: MaxQuant__20240122_184452
+05/17/2024 17:51:33 Deleting information: MaxQuant__20240122_184749
+05/17/2024 17:51:42 Deleting information: MaxQuant__20240122_185412
+05/17/2024 17:51:49 Deleting information: MaxQuant__20240122_185704
+05/17/2024 17:51:57 Deleting information: MaxQuant__20240122_185909
+05/17/2024 17:52:04 Deleting information: MaxQuant__20240122_190128
+05/17/2024 17:52:14 Deleting information: MaxQuant_2.4.0.0_20240129_090237
+05/17/2024 17:52:22 Deleting information: Proline__20240216_141045
+05/17/2024 17:52:29 Deleting information: AlphaPept__20240225_132149
+05/17/2024 17:52:36 Deleting information: AlphaPept__20240224_102717
+05/17/2024 17:52:45 Deleting information: Proline_2.1_20240318_162947
