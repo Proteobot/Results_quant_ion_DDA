@@ -850,7 +850,7 @@
     "submission_comments":"this workflow uses MS2Rescore"
   },
   {
-    "old_new":"new",
+    "old_new":"old",
     "id":"Proline__20240521_110631",
     "software_name":"Proline",
     "software_version":null,
@@ -933,5 +933,90 @@
     "min_precursor_charge":null,
     "max_precursor_charge":null,
     "submission_comments":"this run has the same parameters as Proline__20240517_162848, with a different set of parameters used as input for Percolator (proline features, no MS2Rescore)"
+  },
+  {
+    "old_new":"new",
+    "id":"Proline__20240521_145229",
+    "software_name":"Proline",
+    "software_version":null,
+    "search_engine":"Mascot",
+    "search_engine_version":"2.8.0.1",
+    "ident_fdr_psm":0.01,
+    "ident_fdr_peptide":null,
+    "ident_fdr_protein":null,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"10.0 ppm",
+    "fragment_mass_tolerance":"0.02 Da",
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":2,
+    "min_peptide_length":7,
+    "max_peptide_length":null,
+    "is_temporary":false,
+    "intermediate_hash":"eb2b6bb0f5845d67a56c4e39fb7ff76540c35f6f",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.2819988154,
+        "variance_epsilon":0.1593091894,
+        "nr_prec":38070,
+        "CV_median":0.1644642378,
+        "CV_q90":0.4396871099,
+        "CV_q75":0.2810221523,
+        "CV_q95":0.55949991
+      },
+      "5":{
+        "median_abs_epsilon":0.3024787834,
+        "variance_epsilon":0.1819529245,
+        "nr_prec":48587,
+        "CV_median":0.166987771,
+        "CV_q90":0.4531379508,
+        "CV_q75":0.2889829357,
+        "CV_q95":0.5783145644
+      },
+      "4":{
+        "median_abs_epsilon":0.3239339568,
+        "variance_epsilon":0.2116033232,
+        "nr_prec":55681,
+        "CV_median":0.168303953,
+        "CV_q90":0.4625368787,
+        "CV_q75":0.2937354185,
+        "CV_q95":0.5907660063
+      },
+      "3":{
+        "median_abs_epsilon":0.3390664812,
+        "variance_epsilon":0.2380736669,
+        "nr_prec":61285,
+        "CV_median":0.1686856879,
+        "CV_q90":0.46695141,
+        "CV_q75":0.295598538,
+        "CV_q95":0.5981595965
+      },
+      "2":{
+        "median_abs_epsilon":0.3470233857,
+        "variance_epsilon":0.2566655003,
+        "nr_prec":64937,
+        "CV_median":0.1685424465,
+        "CV_q90":0.4682370699,
+        "CV_q75":0.2960789965,
+        "CV_q95":0.6011774718
+      },
+      "1":{
+        "median_abs_epsilon":0.3470233857,
+        "variance_epsilon":0.2566655003,
+        "nr_prec":66714,
+        "CV_median":0.1685424465,
+        "CV_q90":0.4682370699,
+        "CV_q75":0.2960789965,
+        "CV_q95":0.6011774718
+      }
+    },
+    "median_abs_epsilon":0.3390664812,
+    "nr_prec":61285,
+    "comments":"",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Acetyl (Protein N-term); Oxidation (M)",
+    "max_mods":null,
+    "min_precursor_charge":null,
+    "max_precursor_charge":null,
+    "submission_comments":""
   }
 ]
