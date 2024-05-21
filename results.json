@@ -79,9 +79,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Acetyl (Protein N-term),Oxidation (M)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":""
   },
   {
@@ -164,9 +164,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":""
   },
   {
@@ -249,9 +249,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":""
   },
   {
@@ -334,9 +334,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":"this search has exactly the same parameters as MaxQuant__20240517_161437"
   },
   {
@@ -419,9 +419,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":""
   },
   {
@@ -504,9 +504,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":""
   },
   {
@@ -589,9 +589,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":""
   },
   {
@@ -674,9 +674,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":""
   },
   {
@@ -759,13 +759,13 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":5,
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":7,
+    "max_precursor_charge":7.0,
     "submission_comments":""
   },
   {
-    "old_new":"new",
+    "old_new":"old",
     "id":"Proline__20240517_162848",
     "software_name":"Proline",
     "software_version":null,
@@ -848,5 +848,90 @@
     "min_precursor_charge":null,
     "max_precursor_charge":null,
     "submission_comments":"this workflow uses MS2Rescore"
+  },
+  {
+    "old_new":"new",
+    "id":"Proline__20240521_110631",
+    "software_name":"Proline",
+    "software_version":null,
+    "search_engine":"Mascot",
+    "search_engine_version":"2.8.0.1",
+    "ident_fdr_psm":0.01,
+    "ident_fdr_peptide":null,
+    "ident_fdr_protein":null,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"10.0 ppm",
+    "fragment_mass_tolerance":"0.02 Da",
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":2,
+    "min_peptide_length":7,
+    "max_peptide_length":null,
+    "is_temporary":false,
+    "intermediate_hash":"860f990e6fe39067317753c1ea4e1adad4045f9b",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.2809388151,
+        "variance_epsilon":0.1555015336,
+        "nr_prec":37151,
+        "CV_median":0.1644218856,
+        "CV_q90":0.4405292784,
+        "CV_q75":0.2797119761,
+        "CV_q95":0.560316093
+      },
+      "5":{
+        "median_abs_epsilon":0.3010474657,
+        "variance_epsilon":0.1763163336,
+        "nr_prec":47476,
+        "CV_median":0.1672813394,
+        "CV_q90":0.4545885809,
+        "CV_q75":0.2886917579,
+        "CV_q95":0.5783553565
+      },
+      "4":{
+        "median_abs_epsilon":0.3229341944,
+        "variance_epsilon":0.2080698667,
+        "nr_prec":54371,
+        "CV_median":0.1688724388,
+        "CV_q90":0.4637407223,
+        "CV_q75":0.2929021835,
+        "CV_q95":0.589355191
+      },
+      "3":{
+        "median_abs_epsilon":0.3383630412,
+        "variance_epsilon":0.2351241283,
+        "nr_prec":59789,
+        "CV_median":0.1691404555,
+        "CV_q90":0.4675605404,
+        "CV_q75":0.2948854437,
+        "CV_q95":0.5959363697
+      },
+      "2":{
+        "median_abs_epsilon":0.3460265745,
+        "variance_epsilon":0.2538594093,
+        "nr_prec":63275,
+        "CV_median":0.1691776521,
+        "CV_q90":0.4689865413,
+        "CV_q75":0.2955438833,
+        "CV_q95":0.5986143806
+      },
+      "1":{
+        "median_abs_epsilon":0.3460265745,
+        "variance_epsilon":0.2538594093,
+        "nr_prec":64987,
+        "CV_median":0.1691776521,
+        "CV_q90":0.4689865413,
+        "CV_q75":0.2955438833,
+        "CV_q95":0.5986143806
+      }
+    },
+    "median_abs_epsilon":0.3383630412,
+    "nr_prec":59789,
+    "comments":"",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Acetyl (Protein N-term); Oxidation (M)",
+    "max_mods":null,
+    "min_precursor_charge":null,
+    "max_precursor_charge":null,
+    "submission_comments":"this run has the same parameters as Proline__20240517_162848, with a different set of parameters used as input for Percolator (proline features, no MS2Rescore)"
   }
 ]
