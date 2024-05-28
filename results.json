@@ -850,7 +850,7 @@
     "submission_comments":"this workflow uses MS2Rescore"
   },
   {
-    "old_new":"new",
+    "old_new":"old",
     "id":"Proline__20240521_110631",
     "software_name":"Proline",
     "software_version":null,
@@ -933,5 +933,90 @@
     "min_precursor_charge":null,
     "max_precursor_charge":null,
     "submission_comments":"this run has the same parameters as Proline__20240517_162848, with a different set of parameters used as input for Percolator (proline features, no MS2Rescore)"
+  },
+  {
+    "old_new":"new",
+    "id":"AlphaPept__20240528_085330",
+    "software_name":"AlphaPept",
+    "software_version":"0.5.0",
+    "search_engine":"AlphaPept",
+    "search_engine_version":"0.5.0",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
+    "enable_match_between_runs":false,
+    "precursor_mass_tolerance":"10 ppm",
+    "fragment_mass_tolerance":"50 ppm",
+    "enzyme":"trypsin",
+    "allowed_miscleavages":2,
+    "min_peptide_length":7,
+    "max_peptide_length":27,
+    "is_temporary":false,
+    "intermediate_hash":"ae06ef2cd035e6b69e46b5e3913963bdc45060bb",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.2804467786,
+        "variance_epsilon":0.1920722098,
+        "nr_prec":13635,
+        "CV_median":0.1699511846,
+        "CV_q90":0.4633111337,
+        "CV_q75":0.2806826118,
+        "CV_q95":0.5727070107
+      },
+      "5":{
+        "median_abs_epsilon":0.2932228023,
+        "variance_epsilon":0.2159354974,
+        "nr_prec":21683,
+        "CV_median":0.16696539,
+        "CV_q90":0.4614983547,
+        "CV_q75":0.2778658862,
+        "CV_q95":0.5782007542
+      },
+      "4":{
+        "median_abs_epsilon":0.3070686396,
+        "variance_epsilon":0.2357647487,
+        "nr_prec":28668,
+        "CV_median":0.1654058674,
+        "CV_q90":0.4573409625,
+        "CV_q75":0.2759023332,
+        "CV_q95":0.5759635131
+      },
+      "3":{
+        "median_abs_epsilon":0.3189040463,
+        "variance_epsilon":0.2538791435,
+        "nr_prec":36236,
+        "CV_median":0.1637119005,
+        "CV_q90":0.4537807716,
+        "CV_q75":0.2744000782,
+        "CV_q95":0.5740946233
+      },
+      "2":{
+        "median_abs_epsilon":0.3286467725,
+        "variance_epsilon":0.2673992509,
+        "nr_prec":45027,
+        "CV_median":0.1625050072,
+        "CV_q90":0.4519374771,
+        "CV_q75":0.2733953526,
+        "CV_q95":0.5716399192
+      },
+      "1":{
+        "median_abs_epsilon":0.3286467725,
+        "variance_epsilon":0.2673992509,
+        "nr_prec":57997,
+        "CV_median":0.1625050072,
+        "CV_q90":0.4519374771,
+        "CV_q75":0.2733953526,
+        "CV_q95":0.5716399192
+      }
+    },
+    "median_abs_epsilon":0.3189040463,
+    "nr_prec":36236,
+    "comments":"",
+    "fixed_mods":"cC",
+    "variable_mods":"oxM",
+    "max_mods":3,
+    "min_precursor_charge":1,
+    "max_precursor_charge":6,
+    "submission_comments":""
   }
 ]
