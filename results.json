@@ -1190,7 +1190,7 @@
     "submission_comments":""
   },
   {
-    "old_new":"new",
+    "old_new":"old",
     "id":"AlphaPept__20240528_112503",
     "software_name":"AlphaPept",
     "software_version":"0.5.0",
@@ -1205,7 +1205,7 @@
     "enzyme":"trypsin",
     "allowed_miscleavages":2,
     "min_peptide_length":7,
-    "max_peptide_length":27,
+    "max_peptide_length":27.0,
     "is_temporary":false,
     "intermediate_hash":"ce796e1a739f3724d1ebf9e7682cc12c70e2f331",
     "results":{
@@ -1269,9 +1269,94 @@
     "comments":"",
     "fixed_mods":"cC",
     "variable_mods":"oxM",
-    "max_mods":3,
-    "min_precursor_charge":1,
-    "max_precursor_charge":6,
+    "max_mods":3.0,
+    "min_precursor_charge":1.0,
+    "max_precursor_charge":6.0,
     "submission_comments":""
+  },
+  {
+    "old_new":"new",
+    "id":"Proline_2.2.0_20240712_140520",
+    "software_name":"Proline",
+    "software_version":null,
+    "search_engine":"Mascot",
+    "search_engine_version":"2.8.3",
+    "ident_fdr_psm":0.01,
+    "ident_fdr_peptide":null,
+    "ident_fdr_protein":null,
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"10.0 ppm",
+    "fragment_mass_tolerance":"0.02 Da",
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":2,
+    "min_peptide_length":7,
+    "max_peptide_length":null,
+    "is_temporary":false,
+    "intermediate_hash":"4a2aa979fe36fb6da63a862c2ad46dcefda1e1b3",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.2620891588,
+        "variance_epsilon":0.151835997,
+        "nr_prec":39301,
+        "CV_median":0.2213997426,
+        "CV_q90":0.4604701696,
+        "CV_q75":0.3091451897,
+        "CV_q95":0.5642831202
+      },
+      "5":{
+        "median_abs_epsilon":0.2835220773,
+        "variance_epsilon":0.1778488463,
+        "nr_prec":47487,
+        "CV_median":0.2241024627,
+        "CV_q90":0.4783579928,
+        "CV_q75":0.3199361346,
+        "CV_q95":0.5870264888
+      },
+      "4":{
+        "median_abs_epsilon":0.3065144864,
+        "variance_epsilon":0.2154026034,
+        "nr_prec":52661,
+        "CV_median":0.22512919,
+        "CV_q90":0.4862756872,
+        "CV_q75":0.3245649485,
+        "CV_q95":0.6010165872
+      },
+      "3":{
+        "median_abs_epsilon":0.32085162,
+        "variance_epsilon":0.2448100476,
+        "nr_prec":56429,
+        "CV_median":0.2255811264,
+        "CV_q90":0.4906983075,
+        "CV_q75":0.3271307856,
+        "CV_q95":0.6091222681
+      },
+      "2":{
+        "median_abs_epsilon":0.3275484088,
+        "variance_epsilon":0.2616228057,
+        "nr_prec":58799,
+        "CV_median":0.2256964876,
+        "CV_q90":0.4926659911,
+        "CV_q75":0.3279126431,
+        "CV_q95":0.6122236064
+      },
+      "1":{
+        "median_abs_epsilon":0.3275484088,
+        "variance_epsilon":0.2616228057,
+        "nr_prec":59899,
+        "CV_median":0.2256964876,
+        "CV_q90":0.4926659911,
+        "CV_q75":0.3279126431,
+        "CV_q95":0.6122236064
+      }
+    },
+    "median_abs_epsilon":0.32085162,
+    "nr_prec":56429,
+    "comments":"Peaklist software : MGFBoost 3.6.3 (with eclean)",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Acetyl (Protein N-term); Oxidation (M)",
+    "max_mods":null,
+    "min_precursor_charge":2,
+    "max_precursor_charge":3,
+    "submission_comments":"max and min precursor charge are not correct :\nplease use those \n'max_precursor_charge': 5,\n 'min_precursor_charge': 2,\n\nsoftware version for Proline is 2.2.0\n\nMoreover you could record the information about the software used for peaklist generation ; here MGFBoost 3.6.3 (with eclean) (in-house, not yet published )"
   }
 ]
