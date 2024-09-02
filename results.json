@@ -82,7 +82,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -167,7 +169,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -252,7 +256,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -337,7 +343,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":"this search has exactly the same parameters as MaxQuant__20240517_161437"
+    "submission_comments":"this search has exactly the same parameters as MaxQuant__20240517_161437",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -422,7 +430,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -507,7 +517,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -592,7 +604,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -677,7 +691,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -762,7 +778,9 @@
     "max_mods":5.0,
     "min_precursor_charge":null,
     "max_precursor_charge":7.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -847,7 +865,9 @@
     "max_mods":null,
     "min_precursor_charge":null,
     "max_precursor_charge":null,
-    "submission_comments":"this workflow uses MS2Rescore"
+    "submission_comments":"this workflow uses MS2Rescore",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -932,7 +952,9 @@
     "max_mods":null,
     "min_precursor_charge":null,
     "max_precursor_charge":null,
-    "submission_comments":"this run has the same parameters as Proline__20240517_162848, with a different set of parameters used as input for Percolator (proline features, no MS2Rescore)"
+    "submission_comments":"this run has the same parameters as Proline__20240517_162848, with a different set of parameters used as input for Percolator (proline features, no MS2Rescore)",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -1017,7 +1039,9 @@
     "max_mods":3.0,
     "min_precursor_charge":1.0,
     "max_precursor_charge":6.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -1102,7 +1126,9 @@
     "max_mods":3.0,
     "min_precursor_charge":1.0,
     "max_precursor_charge":6.0,
-    "submission_comments":"all default parameters, with align and match"
+    "submission_comments":"all default parameters, with align and match",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
     "old_new":"old",
@@ -1187,10 +1213,12 @@
     "max_mods":3.0,
     "min_precursor_charge":1.0,
     "max_precursor_charge":6.0,
-    "submission_comments":""
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
   },
   {
-    "old_new":"new",
+    "old_new":"old",
     "id":"AlphaPept__20240528_112503",
     "software_name":"AlphaPept",
     "software_version":"0.5.0",
@@ -1205,7 +1233,7 @@
     "enzyme":"trypsin",
     "allowed_miscleavages":2,
     "min_peptide_length":7,
-    "max_peptide_length":27,
+    "max_peptide_length":27.0,
     "is_temporary":false,
     "intermediate_hash":"ce796e1a739f3724d1ebf9e7682cc12c70e2f331",
     "results":{
@@ -1269,9 +1297,98 @@
     "comments":"",
     "fixed_mods":"cC",
     "variable_mods":"oxM",
-    "max_mods":3,
-    "min_precursor_charge":1,
-    "max_precursor_charge":6,
-    "submission_comments":""
+    "max_mods":3.0,
+    "min_precursor_charge":1.0,
+    "max_precursor_charge":6.0,
+    "submission_comments":"",
+    "proteobench_version":null,
+    "minPeptideLength":null
+  },
+  {
+    "old_new":"new",
+    "id":"MaxQuant__20240902_142609",
+    "software_name":"MaxQuant",
+    "software_version":"2.6.2.0",
+    "search_engine":"Andromeda",
+    "search_engine_version":null,
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":"0.01",
+    "ident_fdr_protein":"0.01",
+    "enable_match_between_runs":"False",
+    "precursor_mass_tolerance":"4.5 ppm",
+    "fragment_mass_tolerance":"20 ppm",
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":"1",
+    "min_peptide_length":null,
+    "max_peptide_length":null,
+    "is_temporary":false,
+    "intermediate_hash":"d8eceae1d3eb5dfbd7c9275b93d6b3c8df6a11c2",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.197174731,
+        "variance_epsilon":0.081014849,
+        "nr_prec":11366,
+        "CV_median":0.2047861446,
+        "CV_q90":0.3930213905,
+        "CV_q75":0.2789779736,
+        "CV_q95":0.4918848118
+      },
+      "5":{
+        "median_abs_epsilon":0.2173323252,
+        "variance_epsilon":0.097428642,
+        "nr_prec":17407,
+        "CV_median":0.2036199921,
+        "CV_q90":0.4057423441,
+        "CV_q75":0.2838471893,
+        "CV_q95":0.502477402
+      },
+      "4":{
+        "median_abs_epsilon":0.2403734128,
+        "variance_epsilon":0.1215571333,
+        "nr_prec":22782,
+        "CV_median":0.2027699674,
+        "CV_q90":0.4105950509,
+        "CV_q75":0.2873101208,
+        "CV_q95":0.5073258249
+      },
+      "3":{
+        "median_abs_epsilon":0.2620442893,
+        "variance_epsilon":0.1430706376,
+        "nr_prec":29358,
+        "CV_median":0.2024197982,
+        "CV_q90":0.4135424563,
+        "CV_q75":0.2899405239,
+        "CV_q95":0.5099558782
+      },
+      "2":{
+        "median_abs_epsilon":0.2783234271,
+        "variance_epsilon":0.1664674947,
+        "nr_prec":36931,
+        "CV_median":0.2016801438,
+        "CV_q90":0.4150667918,
+        "CV_q75":0.2912955251,
+        "CV_q95":0.5110208636
+      },
+      "1":{
+        "median_abs_epsilon":0.2783234271,
+        "variance_epsilon":0.1664674947,
+        "nr_prec":47909,
+        "CV_median":0.2016801438,
+        "CV_q90":0.4150667918,
+        "CV_q75":0.2912955251,
+        "CV_q95":0.5110208636
+      }
+    },
+    "median_abs_epsilon":0.2620442893,
+    "nr_prec":29358,
+    "comments":"no second peptide search",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
+    "max_mods":"5",
+    "min_precursor_charge":null,
+    "max_precursor_charge":"7",
+    "submission_comments":"no second peptide search",
+    "proteobench_version":"0.3.4.dev0+g0848925.d20240902",
+    "minPeptideLength":"7"
   }
 ]
