@@ -1,7 +1,7 @@
 [
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_160151",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"1.5.2.8",
     "search_engine":"Andromeda",
@@ -87,8 +87,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_161106",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"1.5.3.30",
     "search_engine":"Andromeda",
@@ -174,8 +174,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_161437",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"1.5.3.30",
     "search_engine":"Andromeda",
@@ -261,8 +261,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_161635",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"1.5.3.30",
     "search_engine":"Andromeda",
@@ -348,8 +348,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_161857",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"1.6.3.3",
     "search_engine":"Andromeda",
@@ -435,8 +435,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_162032",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"1.6.3.3",
     "search_engine":"Andromeda",
@@ -522,8 +522,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_162233",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.1.3.0",
     "search_engine":"Andromeda",
@@ -609,8 +609,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_162409",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.1.3.0",
     "search_engine":"Andromeda",
@@ -696,8 +696,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240517_162551",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.1.3.0",
     "search_engine":"Andromeda",
@@ -783,182 +783,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
-    "id":"Proline__20240517_162848",
-    "software_name":"Proline",
-    "software_version":null,
-    "search_engine":"Mascot",
-    "search_engine_version":"2.8.0.1",
-    "ident_fdr_psm":0.01,
-    "ident_fdr_peptide":null,
-    "ident_fdr_protein":null,
-    "enable_match_between_runs":true,
-    "precursor_mass_tolerance":"10.0 ppm",
-    "fragment_mass_tolerance":"0.02 Da",
-    "enzyme":"Trypsin\/P",
-    "allowed_miscleavages":2,
-    "min_peptide_length":7.0,
-    "max_peptide_length":null,
-    "is_temporary":false,
-    "intermediate_hash":"9c1dd4e069f250163c5dfec5d945308c25ffbb3e",
-    "results":{
-      "6":{
-        "median_abs_epsilon":0.2812989403,
-        "variance_epsilon":0.158310749,
-        "nr_prec":38565,
-        "CV_median":0.164384937,
-        "CV_q90":0.4395812132,
-        "CV_q75":0.2807641042,
-        "CV_q95":0.559263399
-      },
-      "5":{
-        "median_abs_epsilon":0.3017425557,
-        "variance_epsilon":0.1809369285,
-        "nr_prec":49181,
-        "CV_median":0.1669280606,
-        "CV_q90":0.4530528452,
-        "CV_q75":0.288821706,
-        "CV_q95":0.5782422404
-      },
-      "4":{
-        "median_abs_epsilon":0.3231620412,
-        "variance_epsilon":0.2105451337,
-        "nr_prec":56329,
-        "CV_median":0.1682540944,
-        "CV_q90":0.46251576,
-        "CV_q75":0.2936451161,
-        "CV_q95":0.5907726475
-      },
-      "3":{
-        "median_abs_epsilon":0.3383856105,
-        "variance_epsilon":0.2371661998,
-        "nr_prec":61967,
-        "CV_median":0.1686341268,
-        "CV_q90":0.4669363831,
-        "CV_q75":0.295539894,
-        "CV_q95":0.5980460961
-      },
-      "2":{
-        "median_abs_epsilon":0.3464063586,
-        "variance_epsilon":0.2560602624,
-        "nr_prec":65647,
-        "CV_median":0.1685128839,
-        "CV_q90":0.4682272926,
-        "CV_q75":0.296021591,
-        "CV_q95":0.601132578
-      },
-      "1":{
-        "median_abs_epsilon":0.3464063586,
-        "variance_epsilon":0.2560602624,
-        "nr_prec":67437,
-        "CV_median":0.1685128839,
-        "CV_q90":0.4682272926,
-        "CV_q75":0.296021591,
-        "CV_q95":0.601132578
-      }
-    },
-    "median_abs_epsilon":0.3383856105,
-    "nr_prec":61967,
-    "comments":"",
-    "fixed_mods":"Carbamidomethyl (C)",
-    "variable_mods":"Acetyl (Protein N-term); Oxidation (M)",
-    "max_mods":null,
-    "min_precursor_charge":null,
-    "max_precursor_charge":null,
-    "submission_comments":"this workflow uses MS2Rescore",
-    "proteobench_version":null,
-    "minPeptideLength":null
-  },
-  {
-    "old_new":"old",
-    "id":"Proline__20240521_110631",
-    "software_name":"Proline",
-    "software_version":null,
-    "search_engine":"Mascot",
-    "search_engine_version":"2.8.0.1",
-    "ident_fdr_psm":0.01,
-    "ident_fdr_peptide":null,
-    "ident_fdr_protein":null,
-    "enable_match_between_runs":true,
-    "precursor_mass_tolerance":"10.0 ppm",
-    "fragment_mass_tolerance":"0.02 Da",
-    "enzyme":"Trypsin\/P",
-    "allowed_miscleavages":2,
-    "min_peptide_length":7.0,
-    "max_peptide_length":null,
-    "is_temporary":false,
-    "intermediate_hash":"860f990e6fe39067317753c1ea4e1adad4045f9b",
-    "results":{
-      "6":{
-        "median_abs_epsilon":0.2809388151,
-        "variance_epsilon":0.1555015336,
-        "nr_prec":37151,
-        "CV_median":0.1644218856,
-        "CV_q90":0.4405292784,
-        "CV_q75":0.2797119761,
-        "CV_q95":0.560316093
-      },
-      "5":{
-        "median_abs_epsilon":0.3010474657,
-        "variance_epsilon":0.1763163336,
-        "nr_prec":47476,
-        "CV_median":0.1672813394,
-        "CV_q90":0.4545885809,
-        "CV_q75":0.2886917579,
-        "CV_q95":0.5783553565
-      },
-      "4":{
-        "median_abs_epsilon":0.3229341944,
-        "variance_epsilon":0.2080698667,
-        "nr_prec":54371,
-        "CV_median":0.1688724388,
-        "CV_q90":0.4637407223,
-        "CV_q75":0.2929021835,
-        "CV_q95":0.589355191
-      },
-      "3":{
-        "median_abs_epsilon":0.3383630412,
-        "variance_epsilon":0.2351241283,
-        "nr_prec":59789,
-        "CV_median":0.1691404555,
-        "CV_q90":0.4675605404,
-        "CV_q75":0.2948854437,
-        "CV_q95":0.5959363697
-      },
-      "2":{
-        "median_abs_epsilon":0.3460265745,
-        "variance_epsilon":0.2538594093,
-        "nr_prec":63275,
-        "CV_median":0.1691776521,
-        "CV_q90":0.4689865413,
-        "CV_q75":0.2955438833,
-        "CV_q95":0.5986143806
-      },
-      "1":{
-        "median_abs_epsilon":0.3460265745,
-        "variance_epsilon":0.2538594093,
-        "nr_prec":64987,
-        "CV_median":0.1691776521,
-        "CV_q90":0.4689865413,
-        "CV_q75":0.2955438833,
-        "CV_q95":0.5986143806
-      }
-    },
-    "median_abs_epsilon":0.3383630412,
-    "nr_prec":59789,
-    "comments":"",
-    "fixed_mods":"Carbamidomethyl (C)",
-    "variable_mods":"Acetyl (Protein N-term); Oxidation (M)",
-    "max_mods":null,
-    "min_precursor_charge":null,
-    "max_precursor_charge":null,
-    "submission_comments":"this run has the same parameters as Proline__20240517_162848, with a different set of parameters used as input for Percolator (proline features, no MS2Rescore)",
-    "proteobench_version":null,
-    "minPeptideLength":null
-  },
-  {
-    "old_new":"old",
     "id":"AlphaPept__20240528_085330",
+    "old_new":"old",
     "software_name":"AlphaPept",
     "software_version":"0.5.0",
     "search_engine":"AlphaPept",
@@ -1044,8 +870,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"AlphaPept__20240528_085917",
+    "old_new":"old",
     "software_name":"AlphaPept",
     "software_version":"0.5.0",
     "search_engine":"AlphaPept",
@@ -1131,8 +957,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"AlphaPept__20240528_092934",
+    "old_new":"old",
     "software_name":"AlphaPept",
     "software_version":"0.5.0",
     "search_engine":"AlphaPept",
@@ -1218,8 +1044,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"AlphaPept__20240528_112503",
+    "old_new":"old",
     "software_name":"AlphaPept",
     "software_version":"0.5.0",
     "search_engine":"AlphaPept",
@@ -1305,8 +1131,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_142609",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.6.2.0",
     "search_engine":"Andromeda",
@@ -1392,8 +1218,8 @@
     "minPeptideLength":7.0
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_145851",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.6.2.0",
     "search_engine":"Andromeda",
@@ -1479,8 +1305,8 @@
     "minPeptideLength":7.0
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_150713",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.6.2.0",
     "search_engine":"Andromeda",
@@ -1566,8 +1392,8 @@
     "minPeptideLength":7.0
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_151053",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.6.2.0",
     "search_engine":"Andromeda",
@@ -1653,8 +1479,8 @@
     "minPeptideLength":7.0
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_151447",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.5.2.0",
     "search_engine":"Andromeda",
@@ -1740,8 +1566,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_151852",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.5.2.0",
     "search_engine":"Andromeda",
@@ -1827,8 +1653,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_152200",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.5.2.0",
     "search_engine":"Andromeda",
@@ -1914,8 +1740,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_152442",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.5.2.0",
     "search_engine":"Andromeda",
@@ -2001,8 +1827,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_152755",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.4.14.0",
     "search_engine":"Andromeda",
@@ -2088,8 +1914,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_153029",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.4.14.0",
     "search_engine":"Andromeda",
@@ -2175,8 +2001,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_153334",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.3.1.0",
     "search_engine":"Andromeda",
@@ -2262,8 +2088,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_153629",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.3.1.0",
     "search_engine":"Andromeda",
@@ -2349,8 +2175,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_153910",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"2.2.0.0",
     "search_engine":"Andromeda",
@@ -2436,8 +2262,8 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"old",
     "id":"MaxQuant__20240902_154753",
+    "old_new":"old",
     "software_name":"MaxQuant",
     "software_version":"1.5.8.2",
     "search_engine":"Andromeda",
@@ -2523,21 +2349,21 @@
     "minPeptideLength":null
   },
   {
-    "old_new":"new",
     "id":"MaxQuant__20240902_155031",
+    "old_new":"new",
     "software_name":"MaxQuant",
     "software_version":"1.5.8.2",
     "search_engine":"Andromeda",
     "search_engine_version":null,
     "ident_fdr_psm":null,
-    "ident_fdr_peptide":"0.01",
-    "ident_fdr_protein":"0.01",
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
     "enable_match_between_runs":"true",
     "precursor_mass_tolerance":"4.5 ppm",
     "fragment_mass_tolerance":"20 ppm",
     "enzyme":"Trypsin\/P",
-    "allowed_miscleavages":"1",
-    "min_peptide_length":"7",
+    "allowed_miscleavages":1,
+    "min_peptide_length":7.0,
     "max_peptide_length":null,
     "is_temporary":false,
     "intermediate_hash":"254d6c77ce656888918e738772ad5f5f6f1543e4",
@@ -2602,9 +2428,9 @@
     "comments":"",
     "fixed_mods":"Carbamidomethyl (C)",
     "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
-    "max_mods":"5",
+    "max_mods":5.0,
     "min_precursor_charge":null,
-    "max_precursor_charge":"7",
+    "max_precursor_charge":7.0,
     "submission_comments":"",
     "proteobench_version":"0.3.4.dev0+g0848925.d20240902",
     "minPeptideLength":null
