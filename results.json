@@ -92,7 +92,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240517_161106",
@@ -187,7 +188,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240517_161437",
@@ -282,7 +284,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240517_161635",
@@ -377,7 +380,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240517_161857",
@@ -472,7 +476,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240517_162032",
@@ -567,7 +572,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240517_162233",
@@ -662,7 +668,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240517_162409",
@@ -757,7 +764,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240517_162551",
@@ -852,7 +860,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"AlphaPept__20240528_085330",
@@ -947,7 +956,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"AlphaPept__20240528_085917",
@@ -1042,7 +1052,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"AlphaPept__20240528_092934",
@@ -1137,7 +1148,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"AlphaPept__20240528_112503",
@@ -1232,7 +1244,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_142609",
@@ -1327,7 +1340,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_145851",
@@ -1422,7 +1436,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_150713",
@@ -1517,7 +1532,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_151053",
@@ -1612,7 +1628,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_151447",
@@ -1707,7 +1724,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_151852",
@@ -1802,7 +1820,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_152200",
@@ -1897,7 +1916,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_152442",
@@ -1992,7 +2012,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_152755",
@@ -2087,7 +2108,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_153029",
@@ -2182,7 +2204,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_153334",
@@ -2277,7 +2300,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_153629",
@@ -2372,7 +2396,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_153910",
@@ -2467,7 +2492,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_154753",
@@ -2562,7 +2588,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"MaxQuant__20240902_155031",
@@ -2657,7 +2684,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"FragPipe__20240903_121541",
@@ -2752,7 +2780,8 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"i2MassChroQ__20240904_071654",
@@ -2847,23 +2876,24 @@
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   },
   {
     "id":"i2MassChroQ_20241021_091252",
-    "old_new":"new",
+    "old_new":"old",
     "software_name":"i2MassChroQ",
     "software_version":"1.0.16",
     "search_engine":"X! Tandem",
     "search_engine_version":"X! Tandem Alanine (2017.2.1.4)",
-    "ident_fdr_psm":"0.008998493465",
-    "ident_fdr_peptide":"0.01196294798",
-    "ident_fdr_protein":"0.009873268494",
+    "ident_fdr_psm":0.0089984935,
+    "ident_fdr_peptide":0.011962948,
+    "ident_fdr_protein":0.0098732685,
     "enable_match_between_runs":"F",
     "precursor_mass_tolerance":"10 (ppm)",
     "fragment_mass_tolerance":"0.02 (Daltons)",
     "enzyme":"[RK]|{P}",
-    "allowed_miscleavages":"3",
+    "allowed_miscleavages":3,
     "min_peptide_length":null,
     "max_peptide_length":null,
     "is_temporary":false,
@@ -2930,18 +2960,115 @@
     "fixed_mods":"57.02146@C",
     "variable_mods":"15.99491@M",
     "max_mods":null,
-    "min_precursor_charge":1,
-    "max_precursor_charge":"4",
+    "min_precursor_charge":1.0,
+    "max_precursor_charge":4,
     "submission_comments":"no MBR, 40% missing data",
     "proteobench_version":"0.4.0",
     "minPeptideLength":null,
     "color":"#984ea3",
     "hover_text":"ProteoBench ID: i2MassChroQ_20241021_091252<br>Software tool: i2MassChroQ <br>Comment (private submission): i2m+tandem mcql no MBR",
+    "scatter_size":20.0,
+    "scan_window":null,
+    "quantification_method_DIANN":null,
+    "second_pass":null,
+    "protein_inference":null,
+    "predictors_library":null,
+    "quantification_method":null
+  },
+  {
+    "id":"MaxQuant_20241129_170222",
+    "old_new":"new",
+    "software_name":"MaxQuant",
+    "software_version":"2.6.2.0",
+    "search_engine":"Andromeda",
+    "search_engine_version":null,
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":"0.01",
+    "ident_fdr_protein":"0.01",
+    "enable_match_between_runs":"True",
+    "precursor_mass_tolerance":"4.5 ppm",
+    "fragment_mass_tolerance":"20 ppm",
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":"1",
+    "min_peptide_length":null,
+    "max_peptide_length":null,
+    "is_temporary":false,
+    "intermediate_hash":"c86c2a3afe2c7b764468414efa9d36ced16c2a5c",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.1918619882,
+        "variance_epsilon":0.0689768095,
+        "nr_prec":2286,
+        "CV_median":0.2022814119,
+        "CV_q90":0.388452397,
+        "CV_q75":0.2788221367,
+        "CV_q95":0.4756294136
+      },
+      "5":{
+        "median_abs_epsilon":0.2073739786,
+        "variance_epsilon":0.0806359306,
+        "nr_prec":3330,
+        "CV_median":0.2016742868,
+        "CV_q90":0.405687734,
+        "CV_q75":0.2851989768,
+        "CV_q95":0.5017025758
+      },
+      "4":{
+        "median_abs_epsilon":0.2310782939,
+        "variance_epsilon":0.1014715543,
+        "nr_prec":4272,
+        "CV_median":0.2009789923,
+        "CV_q90":0.4108734257,
+        "CV_q75":0.2873038339,
+        "CV_q95":0.5016188369
+      },
+      "3":{
+        "median_abs_epsilon":0.2520599708,
+        "variance_epsilon":0.1224135159,
+        "nr_prec":5347,
+        "CV_median":0.2018605441,
+        "CV_q90":0.4165753148,
+        "CV_q75":0.2913324618,
+        "CV_q95":0.5039960945
+      },
+      "2":{
+        "median_abs_epsilon":0.267819932,
+        "variance_epsilon":0.1544097601,
+        "nr_prec":6556,
+        "CV_median":0.200880344,
+        "CV_q90":0.4182354042,
+        "CV_q75":0.2918172337,
+        "CV_q95":0.5079178733
+      },
+      "1":{
+        "median_abs_epsilon":0.267819932,
+        "variance_epsilon":0.1544097601,
+        "nr_prec":8380,
+        "CV_median":0.200880344,
+        "CV_q90":0.4182354042,
+        "CV_q75":0.2918172337,
+        "CV_q95":0.5079178733
+      }
+    },
+    "median_abs_epsilon":0.2520599708,
+    "nr_prec":5347,
+    "comments":"",
+    "fixed_mods":"Carbamidomethyl (C)",
+    "variable_mods":"Oxidation (M),Acetyl (Protein N-term)",
+    "max_mods":"5",
+    "min_precursor_charge":null,
+    "max_precursor_charge":"7",
+    "submission_comments":"",
+    "proteobench_version":"0.1.0",
+    "minPeptideLength":"7",
+    "color":"#377eb8",
+    "hover_text":"ProteoBench ID: MaxQuant_20241129_170222<br>Software tool: MaxQuant <br>Comment (private submission): ",
     "scatter_size":20,
     "scan_window":null,
     "quantification_method_DIANN":null,
     "second_pass":null,
     "protein_inference":null,
-    "predictors_library":null
+    "predictors_library":null,
+    "quantification_method":null
   }
 ]
