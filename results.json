@@ -100,7 +100,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2654903203
+    "mean_abs_epsilon":0.2654903203,
+    "abundance_normalization_ions":null
   },
   {
     "id":"ProlineStudio_20241216_103006",
@@ -203,7 +204,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.319847386
+    "mean_abs_epsilon":0.319847386,
+    "abundance_normalization_ions":null
   },
   {
     "id":"i2MassChroQ_20241216_103323",
@@ -306,7 +308,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3698802022
+    "mean_abs_epsilon":0.3698802022,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_130203",
@@ -409,7 +412,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3223912355
+    "mean_abs_epsilon":0.3223912355,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_120735",
@@ -512,7 +516,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2599931921
+    "mean_abs_epsilon":0.2599931921,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_120952",
@@ -615,7 +620,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2599088613
+    "mean_abs_epsilon":0.2599088613,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_121357",
@@ -718,7 +724,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3202269329
+    "mean_abs_epsilon":0.3202269329,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_121600",
@@ -821,7 +828,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2594895133
+    "mean_abs_epsilon":0.2594895133,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_121802",
@@ -924,7 +932,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3086346522
+    "mean_abs_epsilon":0.3086346522,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_122017",
@@ -1027,7 +1036,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3097305807
+    "mean_abs_epsilon":0.3097305807,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_122228",
@@ -1130,7 +1140,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.260002874
+    "mean_abs_epsilon":0.260002874,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_122433",
@@ -1233,7 +1244,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2599472936
+    "mean_abs_epsilon":0.2599472936,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_122819",
@@ -1336,7 +1348,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3131892597
+    "mean_abs_epsilon":0.3131892597,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_123004",
@@ -1439,7 +1452,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2586786406
+    "mean_abs_epsilon":0.2586786406,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_123144",
@@ -1542,7 +1556,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3086413649
+    "mean_abs_epsilon":0.3086413649,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_123408",
@@ -1645,7 +1660,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2600048331
+    "mean_abs_epsilon":0.2600048331,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_124040",
@@ -1748,7 +1764,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2946231135
+    "mean_abs_epsilon":0.2946231135,
+    "abundance_normalization_ions":null
   },
   {
     "id":"MaxQuant_20241216_134651",
@@ -1851,7 +1868,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.2600048331
+    "mean_abs_epsilon":0.2600048331,
+    "abundance_normalization_ions":null
   },
   {
     "id":"i2MassChroQ_20241216_124142",
@@ -1954,7 +1972,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3141844582
+    "mean_abs_epsilon":0.3141844582,
+    "abundance_normalization_ions":null
   },
   {
     "id":"i2MassChroQ_20241216_123642",
@@ -2057,7 +2076,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3435584413
+    "mean_abs_epsilon":0.3435584413,
+    "abundance_normalization_ions":null
   },
   {
     "id":"AlphaPept_20241217_071436",
@@ -2160,7 +2180,8 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3440258613
+    "mean_abs_epsilon":0.3440258613,
+    "abundance_normalization_ions":null
   },
   {
     "id":"AlphaPept_20241217_084044",
@@ -2263,11 +2284,12 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3529769797
+    "mean_abs_epsilon":0.3529769797,
+    "abundance_normalization_ions":null
   },
   {
     "id":"i2MassChroQ_20241219_162150",
-    "old_new":"new",
+    "old_new":"old",
     "software_name":"i2MassChroQ",
     "software_version":"1.0.18",
     "search_engine":"Sage",
@@ -2280,8 +2302,8 @@
     "fragment_mass_tolerance":"-0.02 0.02 da",
     "enzyme":"KR,P,true",
     "allowed_miscleavages":2,
-    "min_peptide_length":5,
-    "max_peptide_length":50,
+    "min_peptide_length":5.0,
+    "max_peptide_length":50.0,
     "is_temporary":false,
     "intermediate_hash":"d8db9ffd261d4e4f5810738c726453dc034b3789",
     "results":{
@@ -2351,8 +2373,8 @@
     "comments":"",
     "fixed_mods":"C:57.021465",
     "variable_mods":"M:15.994915 ^E:-18.010565 ^Q:-17.026548",
-    "max_mods":2,
-    "min_precursor_charge":2,
+    "max_mods":2.0,
+    "min_precursor_charge":2.0,
     "max_precursor_charge":4,
     "submission_comments":"\n\nDataset URL: https:\/\/proteobench.cubimed.rub.de\/datasets\/d8db9ffd261d4e4f5810738c726453dc034b3789\/",
     "proteobench_version":"0.5.10",
@@ -2366,6 +2388,111 @@
     "protein_inference":null,
     "predictors_library":null,
     "quantification_method":null,
-    "mean_abs_epsilon":0.3525882973
+    "mean_abs_epsilon":0.3525882973,
+    "abundance_normalization_ions":null
+  },
+  {
+    "id":"AlphaPept_20250122_155121",
+    "old_new":"new",
+    "software_name":"AlphaPept",
+    "software_version":"0.5.3",
+    "search_engine":"AlphaPept",
+    "search_engine_version":"0.5.3",
+    "ident_fdr_psm":null,
+    "ident_fdr_peptide":0.01,
+    "ident_fdr_protein":0.01,
+    "enable_match_between_runs":false,
+    "precursor_mass_tolerance":"[-10 ppm, 10 ppm]",
+    "fragment_mass_tolerance":"[-50 ppm, 50 ppm]",
+    "enzyme":"Trypsin",
+    "allowed_miscleavages":2,
+    "min_peptide_length":7,
+    "max_peptide_length":27,
+    "is_temporary":false,
+    "intermediate_hash":"94c4c0b7d00761d24fdde05276053b087cb99ea1",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.190135531,
+        "mean_abs_epsilon":0.2893874117,
+        "variance_epsilon":0.2229021552,
+        "nr_prec":13656,
+        "CV_median":0.1716313563,
+        "CV_q90":0.4721350272,
+        "CV_q75":0.2896145731,
+        "CV_q95":0.5920257909
+      },
+      "5":{
+        "median_abs_epsilon":0.197589216,
+        "mean_abs_epsilon":0.2999128951,
+        "variance_epsilon":0.2389775276,
+        "nr_prec":21692,
+        "CV_median":0.1685206947,
+        "CV_q90":0.4715001628,
+        "CV_q75":0.2856802231,
+        "CV_q95":0.5951750631
+      },
+      "4":{
+        "median_abs_epsilon":0.2070908656,
+        "mean_abs_epsilon":0.3126166654,
+        "variance_epsilon":0.2566898835,
+        "nr_prec":28676,
+        "CV_median":0.1667058822,
+        "CV_q90":0.4669819103,
+        "CV_q75":0.2828291934,
+        "CV_q95":0.5905453001
+      },
+      "3":{
+        "median_abs_epsilon":0.2149510102,
+        "mean_abs_epsilon":0.3252737023,
+        "variance_epsilon":0.2799436941,
+        "nr_prec":36379,
+        "CV_median":0.1649962391,
+        "CV_q90":0.4630331452,
+        "CV_q75":0.2801437664,
+        "CV_q95":0.5877063245
+      },
+      "2":{
+        "median_abs_epsilon":0.2214280192,
+        "mean_abs_epsilon":0.3340145407,
+        "variance_epsilon":0.2887253018,
+        "nr_prec":45102,
+        "CV_median":0.1638173287,
+        "CV_q90":0.4607532629,
+        "CV_q75":0.278978777,
+        "CV_q95":0.5850818256
+      },
+      "1":{
+        "median_abs_epsilon":0.2214280192,
+        "mean_abs_epsilon":0.3340145407,
+        "variance_epsilon":0.2887253018,
+        "nr_prec":58090,
+        "CV_median":0.1638173287,
+        "CV_q90":0.4607532629,
+        "CV_q75":0.278978777,
+        "CV_q95":0.5850818256
+      }
+    },
+    "median_abs_epsilon":0.2149510102,
+    "nr_prec":36379,
+    "comments":"",
+    "fixed_mods":"cC",
+    "variable_mods":"oxM",
+    "max_mods":3,
+    "min_precursor_charge":1,
+    "max_precursor_charge":6,
+    "submission_comments":"Variable mods: oxM, a<^ (Protein N-Term)\n\nDataset URL: https:\/\/proteobench.cubimed.rub.de\/datasets\/94c4c0b7d00761d24fdde05276053b087cb99ea1\/",
+    "proteobench_version":"0.5.15",
+    "minPeptideLength":null,
+    "color":"#4daf4a",
+    "hover_text":"ProteoBench ID: AlphaPept_20250122_155121<br>Software tool: AlphaPept <br>Comment (private submission): ",
+    "scatter_size":20,
+    "scan_window":null,
+    "quantification_method_DIANN":null,
+    "second_pass":null,
+    "protein_inference":null,
+    "predictors_library":null,
+    "quantification_method":null,
+    "mean_abs_epsilon":0.3252737023,
+    "abundance_normalization_ions":null
   }
 ]
