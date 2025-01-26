@@ -14,7 +14,7 @@ def split_json(fname="", output_dir="./"):
     # Loop through the list and create separate JSON files
     file_paths = []
     for data in json_data:
-        file_name = f"{data['id']}.json"
+        file_name = f"{data['intermediate_hash']}.json"
         file_path = os.path.join(output_dir, file_name)
 
         with open(file_path, "w", encoding="utf-8") as file:
