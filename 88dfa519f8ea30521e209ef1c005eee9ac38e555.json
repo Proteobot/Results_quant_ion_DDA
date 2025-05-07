@@ -4,10 +4,10 @@
   "software_name": "FragPipe",
   "software_version": "22.0",
   "search_engine": "MSFragger",
-  "search_engine_version": "",
+  "search_engine_version": "4.1",
   "ident_fdr_psm": "0.01",
-  "ident_fdr_peptide": "1",
-  "ident_fdr_protein": "1",
+  "ident_fdr_peptide": null,
+  "ident_fdr_protein": "0.01",
   "enable_match_between_runs": true,
   "precursor_mass_tolerance": "[-10 ppm, 10 ppm]",
   "fragment_mass_tolerance": "[-0.02 Da, 0.02 Da]",
@@ -98,7 +98,7 @@
   "second_pass": NaN,
   "protein_inference": "ProteinProphet: --maxppmdiff 2000000",
   "predictors_library": NaN,
-  "quantification_method": "nan",
+  "quantification_method": "IonQuant",
   "mean_abs_epsilon": 0.44069829678506095,
   "abundance_normalization_ions": "1"
 }
