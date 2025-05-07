@@ -1,20 +1,20 @@
 {
   "id": "AlphaPept_20250122_154315",
   "old_new": "new",
-  "software_name": "MSAngel",
-  "software_version": "2.2.10",
-  "search_engine": "Mascot",
-  "search_engine_version": NaN,
-  "ident_fdr_psm": 0.01,
-  "ident_fdr_peptide": NaN,
-  "ident_fdr_protein": NaN,
+  "software_name": "Sage",
+  "software_version": "0.14.6",
+  "search_engine": "Sage",
+  "search_engine_version": "0.14.6",
+  "ident_fdr_psm": "None",
+  "ident_fdr_peptide": "None",
+  "ident_fdr_protein": "None",
   "enable_match_between_runs": true,
-  "precursor_mass_tolerance": "[-10.0 ppm, +10.0 ppm]",
-  "fragment_mass_tolerance": NaN,
-  "enzyme": "Trypsin/P",
-  "allowed_miscleavages": "0",
-  "min_peptide_length": NaN,
-  "max_peptide_length": NaN,
+  "precursor_mass_tolerance": "[-20.0 ppm, 20.0 ppm]",
+  "fragment_mass_tolerance": "[-20.0 ppm, 20.0 ppm]",
+  "enzyme": "KR",
+  "allowed_miscleavages": 1,
+  "min_peptide_length": 7,
+  "max_peptide_length": 50,
   "is_temporary": false,
   "intermediate_hash": "fd9834a584a2248fdf6ff35b3584092fa98e9f82",
   "results": {
@@ -82,12 +82,21 @@
   "median_abs_epsilon": 0.2173013088,
   "nr_prec": 36421,
   "comments": "",
-  "fixed_mods": "Carbamidomethyl (C)",
-  "variable_mods": "Oxidation (M),Acetyl (Protein N-term)",
-  "max_mods": NaN,
-  "min_precursor_charge": NaN,
-  "max_precursor_charge": NaN,
-  "submission_comments": "MS2Rescore\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/fd9834a584a2248fdf6ff35b3584092fa98e9f82/",
+  "fixed_mods": {
+    "C": 57.02146
+  },
+  "variable_mods": {
+    "[": [
+      42.0106
+    ],
+    "M": [
+      15.9949
+    ]
+  },
+  "max_mods": 3,
+  "min_precursor_charge": 1,
+  "max_precursor_charge": 7,
+  "submission_comments": "\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/fd9834a584a2248fdf6ff35b3584092fa98e9f82/",
   "proteobench_version": "0.5.15",
   "minPeptideLength": null,
   "color": "#4daf4a",
@@ -95,10 +104,10 @@
   "scatter_size": 20.0,
   "scan_window": null,
   "quantification_method_DIANN": null,
-  "second_pass": false,
-  "protein_inference": NaN,
+  "second_pass": null,
+  "protein_inference": "None",
   "predictors_library": null,
-  "quantification_method": NaN,
+  "quantification_method": "None",
   "mean_abs_epsilon": 0.32864592730000003,
-  "abundance_normalization_ions": NaN
+  "abundance_normalization_ions": "None"
 }
