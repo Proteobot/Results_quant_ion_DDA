@@ -1,5 +1,4 @@
 {
-  "old_new": "new",
   "id": "Sage_20260423_150258",
   "software_name": "Sage",
   "software_version": "0.15.0-beta.2",
@@ -12,9 +11,9 @@
   "precursor_mass_tolerance": "[-10.0 ppm, 10.0 ppm]",
   "fragment_mass_tolerance": "[-0.02 Da, 0.02 Da]",
   "enzyme": "Trypsin",
-  "allowed_miscleavages": "2",
-  "min_peptide_length": "7",
-  "max_peptide_length": null,
+  "allowed_miscleavages": 2,
+  "min_peptide_length": 7,
+  "max_peptide_length": NaN,
   "is_temporary": false,
   "intermediate_hash": "05906d50cf20634dc684bda319e3954b8cc2bf5b",
   "results": {
@@ -50,7 +49,7 @@
       "CV_q90": 0.9713271168421854,
       "CV_q95": 1.2356569509816258,
       "variance_epsilon_global": 0.6972569634152435,
-      "nr_prec": 72898,
+      "nr_feature": 72898,
       "roc_auc": 0.8318306780691158
     },
     "5": {
@@ -85,7 +84,7 @@
       "CV_q90": 1.0299364733254093,
       "CV_q95": 1.2987996795926495,
       "variance_epsilon_global": 0.8587988365961186,
-      "nr_prec": 76830,
+      "nr_feature": 76830,
       "roc_auc": 0.8188077687949133
     },
     "4": {
@@ -120,7 +119,7 @@
       "CV_q90": 1.0666465112129342,
       "CV_q95": 1.3240782135307843,
       "variance_epsilon_global": 1.0442095258651771,
-      "nr_prec": 79651,
+      "nr_feature": 79651,
       "roc_auc": 0.8072026573135623
     },
     "3": {
@@ -155,7 +154,7 @@
       "CV_q90": 1.0861419124499514,
       "CV_q95": 1.3397992650350714,
       "variance_epsilon_global": 1.2438313206540348,
-      "nr_prec": 81933,
+      "nr_feature": 81933,
       "roc_auc": 0.7977671174959389
     },
     "2": {
@@ -190,7 +189,7 @@
       "CV_q90": 1.0918644304113965,
       "CV_q95": 1.3425148549557622,
       "variance_epsilon_global": 1.4212590628243464,
-      "nr_prec": 83893,
+      "nr_feature": 83893,
       "roc_auc": 0.7918980080095843
     },
     "1": {
@@ -225,38 +224,30 @@
       "CV_q90": 1.0918644304113965,
       "CV_q95": 1.3425148549557622,
       "variance_epsilon_global": 1.4212590628243464,
-      "nr_prec": 85049,
+      "nr_feature": 85049,
       "roc_auc": 0.7918980080095843
     }
   },
-  "median_abs_epsilon": 0.3876835525189719,
-  "mean_abs_epsilon": 0.6903716551589787,
-  "nr_prec": 81933,
+  "median_abs_epsilon_global": 0.3947216658877526,
+  "mean_abs_epsilon_global": 0.722427223202959,
+  "median_abs_epsilon_eq_species": 0.5814898655358292,
+  "mean_abs_epsilon_eq_species": 0.9032642606221938,
+  "median_abs_epsilon_precision_global": 0.38912029128975334,
+  "mean_abs_epsilon_precision_global": 0.7238488127680083,
+  "median_abs_epsilon_precision_eq_species": 0.5709970966405594,
+  "mean_abs_epsilon_precision_eq_species": 0.9051262087901472,
+  "nr_feature": 85049,
   "comments": "",
-  "proteobench_version": "0.15.3",
-  "fixed_mods": "{'C': 57.021465}",
-  "variable_mods": "{'[': [42.010567], 'M': [15.994915]}",
-  "max_mods": "2",
-  "min_precursor_charge": "2",
-  "max_precursor_charge": "4",
+  "proteobench_version": "0.16.5",
+  "old_new": "new",
+  "semi_enzymatic": false,
+  "fixed_mods": "C[Carbamidomethyl]",
+  "variable_mods": "Protein N-term[Acetyl], M[Oxidation]",
+  "max_mods": 2,
+  "min_precursor_charge": 2,
+  "max_precursor_charge": 4,
   "quantification_method": NaN,
   "protein_inference": NaN,
   "abundance_normalization_ions": NaN,
-  "submission_comments": "Precursor ions are probably not FDR filtered\n\n ### Parameter changes detected:\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n- **quantification_method**: `None` \u2192 `nan`\n- **enzyme**: `None` \u2192 `Trypsin`\n- **abundance_normalization_ions**: `None` \u2192 `nan`\n- **ident_fdr_psm**: `None` \u2192 `nan`\n- **protein_inference**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/05906d50cf20634dc684bda319e3954b8cc2bf5b/",
-  "semi_enzymatic": false,
-  "median_abs_epsilon_global": 0.3876835525189719,
-  "mean_abs_epsilon_global": 0.6903716551589787,
-  "median_abs_epsilon_eq_species": 0.5694804682863293,
-  "mean_abs_epsilon_eq_species": 0.8708363022693303,
-  "median_abs_epsilon_precision_global": 0.3811684681111567,
-  "mean_abs_epsilon_precision_global": 0.6912452944071,
-  "median_abs_epsilon_precision_eq_species": 0.5618188623713151,
-  "mean_abs_epsilon_precision_eq_species": 0.8715461437230819,
-  "min_precursor_mz": NaN,
-  "max_precursor_mz": NaN,
-  "min_fragment_mz": NaN,
-  "max_fragment_mz": NaN,
-  "second_pass": NaN,
-  "scan_window": NaN,
-  "predictors_library": NaN
+  "submission_comments": "Precursor ions are probably not FDR filtered\n\n ### Parameter changes detected:\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n- **quantification_method**: `None` \u2192 `nan`\n- **enzyme**: `None` \u2192 `Trypsin`\n- **abundance_normalization_ions**: `None` \u2192 `nan`\n- **ident_fdr_psm**: `None` \u2192 `nan`\n- **protein_inference**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/05906d50cf20634dc684bda319e3954b8cc2bf5b/"
 }
