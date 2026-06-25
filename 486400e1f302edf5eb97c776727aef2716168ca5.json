@@ -1,5 +1,4 @@
 {
-  "old_new": "new",
   "id": "i2MassChroQ_20250610_113133",
   "software_name": "i2MassChroQ",
   "software_version": "1.0.18",
@@ -11,7 +10,7 @@
   "enable_match_between_runs": true,
   "precursor_mass_tolerance": "-10 10 ppm",
   "fragment_mass_tolerance": "-0.02 0.02 da",
-  "enzyme": "KR|P,true",
+  "enzyme": "Trypsin",
   "allowed_miscleavages": 2,
   "min_peptide_length": 5,
   "max_peptide_length": 50,
@@ -49,13 +48,9 @@
       "CV_q75": 0.23582489458167,
       "CV_q90": 0.44030351597122813,
       "CV_q95": 0.5722292180968959,
-      "roc_auc": 0.9201460889094961,
-      "roc_auc_directional": 0.9255701466002353,
-      "nr_prec": 50036,
-      "nr_prec_HUMAN": 38579,
-      "nr_prec_YEAST": 10059,
-      "nr_prec_ECOLI": 1398,
-      "variance_epsilon_global": 0.1872016891600544
+      "variance_epsilon_global": 0.1872016891600544,
+      "nr_feature": 50036,
+      "roc_auc": 0.9201460889094961
     },
     "5": {
       "median_abs_epsilon_global": 0.2015731270210157,
@@ -88,13 +83,9 @@
       "CV_q75": 0.2619024851602578,
       "CV_q90": 0.47634876114608904,
       "CV_q95": 0.6161971319117463,
-      "roc_auc": 0.9042970320540469,
-      "roc_auc_directional": 0.9173349206476182,
-      "nr_prec": 57944,
-      "nr_prec_HUMAN": 44148,
-      "nr_prec_YEAST": 12009,
-      "nr_prec_ECOLI": 1787,
-      "variance_epsilon_global": 0.2345200084853444
+      "variance_epsilon_global": 0.2345200084853444,
+      "nr_feature": 57944,
+      "roc_auc": 0.9042970320540469
     },
     "4": {
       "median_abs_epsilon_global": 0.2105513114850801,
@@ -127,13 +118,9 @@
       "CV_q75": 0.2748701513943172,
       "CV_q90": 0.48953000930887075,
       "CV_q95": 0.632329055819681,
-      "roc_auc": 0.8958746857274249,
-      "roc_auc_directional": 0.9102038571574194,
-      "nr_prec": 63150,
-      "nr_prec_HUMAN": 47746,
-      "nr_prec_YEAST": 13268,
-      "nr_prec_ECOLI": 2136,
-      "variance_epsilon_global": 0.272546670911894
+      "variance_epsilon_global": 0.272546670911894,
+      "nr_feature": 63150,
+      "roc_auc": 0.8958746857274249
     },
     "3": {
       "median_abs_epsilon_global": 0.21461116816223935,
@@ -166,13 +153,9 @@
       "CV_q75": 0.2792868332449533,
       "CV_q90": 0.49390184229715106,
       "CV_q95": 0.6405586151751113,
-      "roc_auc": 0.8900762038701469,
-      "roc_auc_directional": 0.9057723434554702,
-      "nr_prec": 67557,
-      "nr_prec_HUMAN": 50288,
-      "nr_prec_YEAST": 14424,
-      "nr_prec_ECOLI": 2845,
-      "variance_epsilon_global": 0.29229148347935074
+      "variance_epsilon_global": 0.29229148347935074,
+      "nr_feature": 67557,
+      "roc_auc": 0.8900762038701469
     },
     "2": {
       "median_abs_epsilon_global": 0.2168572350473461,
@@ -205,13 +188,9 @@
       "CV_q75": 0.28054578012294784,
       "CV_q90": 0.495616115405659,
       "CV_q95": 0.6414540876330395,
-      "roc_auc": 0.8872848336469739,
-      "roc_auc_directional": 0.9036651602257404,
-      "nr_prec": 70707,
-      "nr_prec_HUMAN": 52394,
-      "nr_prec_YEAST": 15208,
-      "nr_prec_ECOLI": 3105,
-      "variance_epsilon_global": 0.30447785271155414
+      "variance_epsilon_global": 0.30447785271155414,
+      "nr_feature": 70707,
+      "roc_auc": 0.8872848336469739
     },
     "1": {
       "median_abs_epsilon_global": 0.2168572350473461,
@@ -244,33 +223,11 @@
       "CV_q75": 0.28054578012294784,
       "CV_q90": 0.495616115405659,
       "CV_q95": 0.6414540876330395,
-      "roc_auc": 0.8872848336469739,
-      "roc_auc_directional": 0.9036651602257404,
-      "nr_prec": 73030,
-      "nr_prec_HUMAN": 53852,
-      "nr_prec_YEAST": 15903,
-      "nr_prec_ECOLI": 3275,
-      "variance_epsilon_global": 0.3044778527115542
+      "variance_epsilon_global": 0.3044778527115542,
+      "nr_feature": 73030,
+      "roc_auc": 0.8872848336469739
     }
   },
-  "median_abs_epsilon": NaN,
-  "mean_abs_epsilon": NaN,
-  "nr_prec": 73030,
-  "comments": "",
-  "proteobench_version": "0.13.2",
-  "color": "#108E2E",
-  "hover_text": "ProteoBench ID: i2MassChroQ_20250610_113133<br>Software tool: i2MassChroQ <br>Comment (private submission): ...",
-  "scatter_size": 20,
-  "fixed_mods": "C:57.021465",
-  "variable_mods": "M:15.994915 ^E:-18.010565 ^Q:-17.026548",
-  "max_mods": 2,
-  "min_precursor_charge": 2,
-  "max_precursor_charge": 4,
-  "quantification_method": NaN,
-  "protein_inference": NaN,
-  "abundance_normalization_ions": NaN,
-  "submission_comments": "\n\n ### No parameter changes detected. \n\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/486400e1f302edf5eb97c776727aef2716168ca5/",
-  "semi_enzymatic": false,
   "median_abs_epsilon_global": 0.2168572350473461,
   "mean_abs_epsilon_global": 0.3573629831441529,
   "median_abs_epsilon_eq_species": 0.284173939389668,
@@ -278,5 +235,19 @@
   "median_abs_epsilon_precision_global": 0.17598608659834625,
   "mean_abs_epsilon_precision_global": 0.3304193030613282,
   "median_abs_epsilon_precision_eq_species": 0.2653089179520188,
-  "mean_abs_epsilon_precision_eq_species": 0.499766125883522
+  "mean_abs_epsilon_precision_eq_species": 0.499766125883522,
+  "nr_feature": 73030,
+  "comments": "",
+  "proteobench_version": "0.16.5",
+  "old_new": "new",
+  "semi_enzymatic": false,
+  "fixed_mods": "C[Carbamidomethyl]",
+  "variable_mods": "M[Oxidation], N-term E[Pyro-glu], N-term Q[Pyro-glu]",
+  "max_mods": 2,
+  "min_precursor_charge": 2,
+  "max_precursor_charge": 4,
+  "quantification_method": NaN,
+  "protein_inference": NaN,
+  "abundance_normalization_ions": NaN,
+  "submission_comments": "\n\n ### No parameter changes detected. \n\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/486400e1f302edf5eb97c776727aef2716168ca5/"
 }
