@@ -49,9 +49,13 @@
       "CV_q75": 0.2605416063790603,
       "CV_q90": 0.3965914552464574,
       "CV_q95": 0.5004312242338772,
-      "variance_epsilon_global": 0.10621010156040821,
-      "nr_feature": 30289,
-      "roc_auc": 0.9592003247046255
+      "roc_auc": 0.9592003247046255,
+      "roc_auc_directional": 0.9778358177204913,
+      "nr_prec": 30289,
+      "nr_prec_HUMAN": 23866,
+      "nr_prec_YEAST": 5841,
+      "nr_prec_ECOLI": 582,
+      "variance_epsilon_global": 0.10621010156040821
     },
     "5": {
       "median_abs_epsilon_global": 0.16886289211058703,
@@ -84,9 +88,13 @@
       "CV_q75": 0.27293121637730766,
       "CV_q90": 0.4229083073463329,
       "CV_q95": 0.5419499075289839,
-      "variance_epsilon_global": 0.14140321432556713,
-      "nr_feature": 42154,
-      "roc_auc": 0.939037415478122
+      "roc_auc": 0.939037415478122,
+      "roc_auc_directional": 0.9657936547844452,
+      "nr_prec": 42154,
+      "nr_prec_HUMAN": 32969,
+      "nr_prec_YEAST": 8277,
+      "nr_prec_ECOLI": 908,
+      "variance_epsilon_global": 0.14140321432556713
     },
     "4": {
       "median_abs_epsilon_global": 0.1860675179275404,
@@ -119,9 +127,13 @@
       "CV_q75": 0.28038256714406196,
       "CV_q90": 0.4395543248866307,
       "CV_q95": 0.568255746814422,
-      "variance_epsilon_global": 0.1939932001280015,
-      "nr_feature": 52349,
-      "roc_auc": 0.9139547741469937
+      "roc_auc": 0.9139547741469937,
+      "roc_auc_directional": 0.9456616766072019,
+      "nr_prec": 52349,
+      "nr_prec_HUMAN": 40456,
+      "nr_prec_YEAST": 10563,
+      "nr_prec_ECOLI": 1330,
+      "variance_epsilon_global": 0.1939932001280015
     },
     "3": {
       "median_abs_epsilon_global": 0.2002352279536126,
@@ -154,9 +166,13 @@
       "CV_q75": 0.28486284360060554,
       "CV_q90": 0.45040792063066715,
       "CV_q95": 0.5865598702207877,
-      "variance_epsilon_global": 0.25144537233009134,
-      "nr_feature": 63701,
-      "roc_auc": 0.8901375666157806
+      "roc_auc": 0.8901375666157806,
+      "roc_auc_directional": 0.9277227931544347,
+      "nr_prec": 63701,
+      "nr_prec_HUMAN": 47996,
+      "nr_prec_YEAST": 13312,
+      "nr_prec_ECOLI": 2393,
+      "variance_epsilon_global": 0.25144537233009134
     },
     "2": {
       "median_abs_epsilon_global": 0.21089000101121513,
@@ -189,9 +205,13 @@
       "CV_q75": 0.28874504354940633,
       "CV_q90": 0.4590499101944253,
       "CV_q95": 0.6013165382419532,
-      "variance_epsilon_global": 0.3077765662205536,
-      "nr_feature": 76947,
-      "roc_auc": 0.8708973363842255
+      "roc_auc": 0.8708973363842255,
+      "roc_auc_directional": 0.9158057042827616,
+      "nr_prec": 76947,
+      "nr_prec_HUMAN": 57009,
+      "nr_prec_YEAST": 16633,
+      "nr_prec_ECOLI": 3305,
+      "variance_epsilon_global": 0.3077765662205536
     },
     "1": {
       "median_abs_epsilon_global": 0.21089000101121513,
@@ -224,21 +244,28 @@
       "CV_q75": 0.28874504354940633,
       "CV_q90": 0.4590499101944253,
       "CV_q95": 0.6013165382419532,
-      "variance_epsilon_global": 0.30777656622055355,
-      "nr_feature": 96672,
-      "roc_auc": 0.8708973363842255
+      "roc_auc": 0.8708973363842255,
+      "roc_auc_directional": 0.9158057042827616,
+      "nr_prec": 96672,
+      "nr_prec_HUMAN": 70164,
+      "nr_prec_YEAST": 21940,
+      "nr_prec_ECOLI": 4568,
+      "variance_epsilon_global": 0.30777656622055355
     }
   },
   "median_abs_epsilon": NaN,
   "mean_abs_epsilon": NaN,
-  "nr_feature": 96672,
+  "nr_prec": 96672,
   "comments": "",
-  "proteobench_version": "0.16.4",
-  "fixed_mods": "C[Carbamidomethyl]",
-  "variable_mods": "M[Oxidation], N-term[Acetyl]",
+  "proteobench_version": "0.13.2",
+  "color": "#F89008",
+  "hover_text": "ProteoBench ID: FragPipe_20250621_141134<br>Software tool: FragPipe <br>Comment (private submission): ...",
+  "scatter_size": 20,
+  "fixed_mods": "0.0,C-Term Peptide,true,-1; 0.0,N-Term Peptide,true,-1; 0.0,C-Term Protein,true,-1; 0.0,N-Term Protein,true,-1; 0.0,G (glycine),true,-1; 0.0,A (alanine),true,-1; 0.0,S (serine),true,-1; 0.0,P (proline),true,-1; 0.0,V (valine),true,-1; 0.0,T (threonine),true,-1; 57.02146,C (cysteine),true,-1; 0.0,L (leucine),true,-1; 0.0,I (isoleucine),true,-1; 0.0,N (asparagine),true,-1; 0.0,D (aspartic acid),true,-1; 0.0,Q (glutamine),true,-1; 0.0,K (lysine),true,-1; 0.0,E (glutamic acid),true,-1; 0.0,M (methionine),true,-1; 0.0,H (histidine),true,-1; 0.0,F (phenylalanine),true,-1; 0.0,R (arginine),true,-1; 0.0,Y (tyrosine),true,-1; 0.0,W (tryptophan),true,-1; 0.0,B ,true,-1; 0.0,J,true,-1; 0.0,O,true,-1; 0.0,U,true,-1; 0.0,X,true,-1; 0.0,Z,true,-1",
+  "variable_mods": "15.9949,M,true,3; 42.0106,[^,true,1; 79.96633,STY,false,3; -17.0265,nQnC,false,1; -18.0106,nE,false,1; 4.025107,K,false,2; 6.020129,R,false,2; 8.014199,K,false,2; 10.008269,R,false,2; 0.0,site_10,false,1; 0.0,site_11,false,1; 0.0,site_12,false,1; 0.0,site_13,false,1; 0.0,site_14,false,1; 0.0,site_15,false,1; 0.0,site_16,false,1",
   "max_mods": 3,
   "min_precursor_charge": 1,
-  "max_precursor_charge": NaN,
+  "max_precursor_charge": null,
   "quantification_method": "IonQuant",
   "protein_inference": "ProteinProphet: --maxppmdiff 2000000",
   "abundance_normalization_ions": 1,
@@ -252,11 +279,8 @@
   "mean_abs_epsilon_precision_global": 0.34876261217585264,
   "median_abs_epsilon_precision_eq_species": 0.25312582816036056,
   "mean_abs_epsilon_precision_eq_species": 0.4376048991311796,
-  "min_precursor_mz": NaN,
-  "max_precursor_mz": 5000,
-  "min_fragment_mz": NaN,
-  "max_fragment_mz": NaN,
-  "second_pass": NaN,
-  "scan_window": NaN,
-  "predictors_library": NaN
+  "min_precursor_mz": null,
+  "max_precursor_mz": 5000.0,
+  "min_fragment_mz": null,
+  "max_fragment_mz": null
 }

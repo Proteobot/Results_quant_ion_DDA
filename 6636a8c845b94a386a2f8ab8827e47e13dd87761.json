@@ -49,9 +49,13 @@
       "CV_q75": 0.29803633169581445,
       "CV_q90": 0.4391717847501547,
       "CV_q95": 0.5410942850075077,
-      "variance_epsilon_global": 0.11653276521928739,
-      "nr_feature": 23808,
-      "roc_auc": 0.973913384599529
+      "roc_auc": 0.973913384599529,
+      "roc_auc_directional": 0.9750142966324288,
+      "nr_prec": 23808,
+      "nr_prec_HUMAN": 18760,
+      "nr_prec_YEAST": 4589,
+      "nr_prec_ECOLI": 459,
+      "variance_epsilon_global": 0.11653276521928739
     },
     "5": {
       "median_abs_epsilon_global": 0.18672901809896203,
@@ -84,9 +88,13 @@
       "CV_q75": 0.310583443678588,
       "CV_q90": 0.4628237990721601,
       "CV_q95": 0.5732941081133486,
-      "variance_epsilon_global": 0.15949947650200103,
-      "nr_feature": 30815,
-      "roc_auc": 0.9581964892384627
+      "roc_auc": 0.9581964892384627,
+      "roc_auc_directional": 0.9679367772673209,
+      "nr_prec": 30815,
+      "nr_prec_HUMAN": 23968,
+      "nr_prec_YEAST": 6123,
+      "nr_prec_ECOLI": 724,
+      "variance_epsilon_global": 0.15949947650200103
     },
     "4": {
       "median_abs_epsilon_global": 0.19895834033073,
@@ -119,9 +127,13 @@
       "CV_q75": 0.317215356710732,
       "CV_q90": 0.47527195695032065,
       "CV_q95": 0.590553274916017,
-      "variance_epsilon_global": 0.21134628093450378,
-      "nr_feature": 36369,
-      "roc_auc": 0.9403026706836859
+      "roc_auc": 0.9403026706836859,
+      "roc_auc_directional": 0.9561476888644284,
+      "nr_prec": 36369,
+      "nr_prec_HUMAN": 27922,
+      "nr_prec_YEAST": 7436,
+      "nr_prec_ECOLI": 1011,
+      "variance_epsilon_global": 0.21134628093450378
     },
     "3": {
       "median_abs_epsilon_global": 0.20834769967864553,
@@ -154,9 +166,13 @@
       "CV_q75": 0.32074192955773984,
       "CV_q90": 0.48199507603945846,
       "CV_q95": 0.6016240392655865,
-      "variance_epsilon_global": 0.2528335649654645,
-      "nr_feature": 41206,
-      "roc_auc": 0.9276587444225437
+      "roc_auc": 0.9276587444225437,
+      "roc_auc_directional": 0.9487189512358414,
+      "nr_prec": 41206,
+      "nr_prec_HUMAN": 31156,
+      "nr_prec_YEAST": 8542,
+      "nr_prec_ECOLI": 1508,
+      "variance_epsilon_global": 0.2528335649654645
     },
     "2": {
       "median_abs_epsilon_global": 0.21216470838076873,
@@ -189,9 +205,13 @@
       "CV_q75": 0.3217927895873166,
       "CV_q90": 0.4846878676201667,
       "CV_q95": 0.6065966463968708,
-      "variance_epsilon_global": 0.2811174694226921,
-      "nr_feature": 44943,
-      "roc_auc": 0.9215627353139679
+      "roc_auc": 0.9215627353139679,
+      "roc_auc_directional": 0.944172301888719,
+      "nr_prec": 44943,
+      "nr_prec_HUMAN": 33694,
+      "nr_prec_YEAST": 9461,
+      "nr_prec_ECOLI": 1788,
+      "variance_epsilon_global": 0.2811174694226921
     },
     "1": {
       "median_abs_epsilon_global": 0.21216470838076873,
@@ -224,18 +244,25 @@
       "CV_q75": 0.3217927895873166,
       "CV_q90": 0.4846878676201667,
       "CV_q95": 0.6065966463968708,
-      "variance_epsilon_global": 0.28111746942269206,
-      "nr_feature": 47469,
-      "roc_auc": 0.9215627353139679
+      "roc_auc": 0.9215627353139679,
+      "roc_auc_directional": 0.944172301888719,
+      "nr_prec": 47469,
+      "nr_prec_HUMAN": 35365,
+      "nr_prec_YEAST": 10118,
+      "nr_prec_ECOLI": 1986,
+      "variance_epsilon_global": 0.28111746942269206
     }
   },
   "median_abs_epsilon": NaN,
   "mean_abs_epsilon": NaN,
-  "nr_feature": 47469,
+  "nr_prec": 47469,
   "comments": "",
-  "proteobench_version": "0.16.4",
-  "fixed_mods": "C[Carbamidomethyl]",
-  "variable_mods": "Protein N-term[Acetyl], M[Oxidation]",
+  "proteobench_version": "0.13.2",
+  "color": "#663200",
+  "hover_text": "ProteoBench ID: WOMBAT_20250610_110830<br>Software tool: WOMBAT <br>Comment (private submission): ...",
+  "scatter_size": 20,
+  "fixed_mods": "Carbamidomethyl of C",
+  "variable_mods": "Acetyl of Protein N-term,Oxidation of M",
   "max_mods": 4,
   "min_precursor_charge": 2,
   "max_precursor_charge": 4,
@@ -251,12 +278,5 @@
   "median_abs_epsilon_precision_global": 0.19768768629433708,
   "mean_abs_epsilon_precision_global": 0.3201243021727655,
   "median_abs_epsilon_precision_eq_species": 0.24009568300812964,
-  "mean_abs_epsilon_precision_eq_species": 0.3883687860396075,
-  "min_precursor_mz": NaN,
-  "max_precursor_mz": NaN,
-  "min_fragment_mz": NaN,
-  "max_fragment_mz": NaN,
-  "second_pass": NaN,
-  "scan_window": NaN,
-  "predictors_library": NaN
+  "mean_abs_epsilon_precision_eq_species": 0.3883687860396075
 }
