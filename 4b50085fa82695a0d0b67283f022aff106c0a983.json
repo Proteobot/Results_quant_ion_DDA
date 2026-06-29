@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.5136471030530033,
   "nr_feature": 79650,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.16.6",
   "old_new": "new",
   "semi_enzymatic": false,
   "fixed_mods": "C[Carbamidomethyl]",
