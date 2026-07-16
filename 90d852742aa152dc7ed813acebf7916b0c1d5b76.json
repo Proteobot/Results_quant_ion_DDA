@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.4504967769904397,
   "nr_feature": 61566,
   "comments": "",
-  "proteobench_version": "0.16.6",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "semi_enzymatic": false,
   "fixed_mods": "C[Carbamidomethyl]",
@@ -248,6 +248,8 @@
   "max_precursor_charge": 4,
   "quantification_method": NaN,
   "protein_inference": NaN,
-  "abundance_normalization_ions": NaN,
+  "abundance_normalization_ions": "median.RT",
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "precursors from proteins validated with at least 2 peptides\n\n ### No parameter changes detected. \n\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/90d852742aa152dc7ed813acebf7916b0c1d5b76/"
 }

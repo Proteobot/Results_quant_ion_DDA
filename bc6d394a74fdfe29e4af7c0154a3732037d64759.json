@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.3968162576495999,
   "nr_feature": 50955,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "semi_enzymatic": false,
   "fixed_mods": "C[Carbamidomethyl]",
@@ -249,5 +249,7 @@
   "quantification_method": NaN,
   "protein_inference": NaN,
   "abundance_normalization_ions": NaN,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "\n\n ### No parameter changes detected. \n\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/bc6d394a74fdfe29e4af7c0154a3732037d64759/"
 }
