@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.9051262087901472,
   "nr_feature": 85049,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "semi_enzymatic": false,
   "fixed_mods": "C[Carbamidomethyl]",
@@ -249,5 +249,7 @@
   "quantification_method": NaN,
   "protein_inference": NaN,
   "abundance_normalization_ions": NaN,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "Precursor ions are probably not FDR filtered\n\n ### Parameter changes detected:\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n- **quantification_method**: `None` \u2192 `nan`\n- **enzyme**: `None` \u2192 `Trypsin`\n- **abundance_normalization_ions**: `None` \u2192 `nan`\n- **ident_fdr_psm**: `None` \u2192 `nan`\n- **protein_inference**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/05906d50cf20634dc684bda319e3954b8cc2bf5b/"
 }
